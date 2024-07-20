@@ -124,3 +124,17 @@ hazard "Rulei Gravity Field"
 
 effect "gravity well"
 	"sound" "gravity well"
+
+hazard "Jibauni Slowing"
+	"duration" 1 100
+	"period" 100
+	"strength" 0.50 0.99
+	weapon
+		"slowing damage" 25
+
+hazard "Sheragi Ion"
+	"duration" 1 100
+	"strength" 100
+	"system-wide"
+	weapon
+		"ion damage" 0.1

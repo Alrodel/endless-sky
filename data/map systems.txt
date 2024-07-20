@@ -4281,6 +4281,101 @@ system Almach
 			distance 442
 			period 26.8252
 
+system Almanhaq
+	pos -1390 535
+	government "Jibauni (Rebel)"
+	habitable 14525.237
+	belt 1131 2
+	belt 1856 2
+	belt 2560
+	haze _menu/haze-green
+	link Haqal
+	link Holo
+	link Kateaza
+	link Quinlo
+	link Yinkin
+	asteroids "small rock" 1 1.234
+	asteroids "medium rock" 71 1.656
+	asteroids "large rock" 9 1.521
+	asteroids "small metal" 25 0.946
+	asteroids "medium metal" 26 1.217
+	asteroids "large metal" 1 1.284
+	minables titanium 5 2.726
+	minables iron 16 2.172
+	minables lead 26 2.084
+	trade Clothing 167
+	trade Electronics 697
+	trade Equipment 507
+	trade Food 360
+	trade "Heavy Metals" 979
+	trade Industrial 712
+	trade "Luxury Goods" 957
+	trade Medical 565
+	trade Metal 252
+	trade Plastic 477
+	fleet "Small Rebel Jibauni Military" 460
+	fleet "Large Rebel Jibauni Military" 880
+	fleet "Large Jibauni Military" 5200
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/a-supergiant
+		distance 365.5
+		period 349.382
+	object
+		sprite star/f-supergiant
+		distance 365.5
+		period 349.382
+		offset 180
+	object
+		sprite planet/gas1-b
+		distance 1666
+		period 225.689
+		object
+			sprite planet/miranda
+			distance 469
+			period 480.475
+		object
+			sprite planet/rhea
+			distance 613
+			period 472.03
+		object
+			sprite planet/rock3-b
+			distance 743
+			period 765.568
+	object
+		sprite planet/gas9
+		distance 2911
+		period 521.269
+		object
+			sprite planet/desert2
+			distance 266
+			period 163.992
+	object
+		sprite planet/gas8-b
+		distance 3861
+		period 796.248
+	object
+		sprite planet/gas0-hot
+		distance 5034
+		period 1185.409
+		object
+			sprite planet/dust5-b
+			distance 226
+			period 88.916
+	object Andwerfen
+		sprite planet/desert3
+		distance 11983.673
+		object
+			sprite planet/browndwarf-t
+				scale 0.1
+			distance 131.27
+			period 5
+		object
+			sprite planet/cloud5
+				scale 0.1
+			distance 200
+			period 8
+
 system Alnair
 	pos -272 314
 	government Syndicate
@@ -8430,6 +8525,85 @@ system Chimitarp
 			distance 192
 			period 14.0039
 
+system Chinjoka
+	hidden
+	pos -1672 696
+	government Uninhabited
+	habitable 7560.134
+	belt 1322 9
+	belt 2379 4
+	haze _menu/haze-green
+	link Sarkan
+	link Somitaw
+	link Taniyn
+	asteroids "small rock" 7 1.309
+	asteroids "medium rock" 13 1.739
+	asteroids "large rock" 3 1.795
+	asteroids "medium metal" 47 1.384
+	asteroids "large metal" 11 1.197
+	minables aluminum 1 2.179
+	minables titanium 2 2.542
+	fleet "Small Sheragi Military" 1300
+	fleet "Large Sheragi Military" 2000
+	hazard "Sheragi Ion" 500
+	object
+		sprite star/g-supergiant
+		distance 480
+		period 525.814
+	object
+		sprite star/k-supergiant
+		distance 480
+		period 525.814
+		offset 180
+	object
+		sprite planet/gas13-b
+		distance 1576
+		period 287.826
+		object
+			sprite planet/desert4-b
+			distance 272
+			period 212.21
+		object
+			sprite planet/miranda
+			distance 407
+			period 388.422
+	object
+		sprite planet/gas10
+		distance 2451
+		period 558.226
+		object
+			sprite planet/ice7-b
+			distance 233
+			period 93.079
+	object
+		sprite planet/gas9-b
+		distance 3355
+		period 893.993
+	object
+		sprite planet/browndwarf-t
+		distance 4761
+		period 1511.272
+	object
+		sprite planet/gas4-b
+		distance 6286
+		period 2292.751
+		object
+			sprite planet/lava0-b
+			distance 263
+			period 111.622
+		object
+			sprite planet/miranda-b
+			distance 374
+			period 342.152
+	object
+		sprite planet/saturn
+		distance 7691
+		period 3102.912
+		object
+			sprite planet/ice7
+			distance 309
+			period 142.153
+
 system Chirr'ay'akai
 	pos -102.761 -749.614
 	government Wanderer
@@ -9310,6 +9484,65 @@ system Dabih
 			sprite planet/rock7
 			distance 309
 			period 24.141
+
+system Dakon
+	hidden
+	pos -1602 855
+	government "Sheragi (Jibauni)"
+	habitable 22300
+	belt 1814 10
+	link Ejderha
+	link Rong
+	asteroids "small rock" 11 3.629
+	asteroids "medium rock" 3 5.832
+	asteroids "large rock" 1 4.082
+	asteroids "small metal" 20 3.694
+	asteroids "medium metal" 1 3.499
+	asteroids "large metal" 3 5.443
+	minables aluminum 3 4.023
+	trade Clothing 197
+	trade Electronics 728
+	trade Equipment 456
+	trade Food 299
+	trade "Heavy Metals" 1010
+	trade Industrial 752
+	trade "Luxury Goods" 986
+	trade Medical 807
+	trade Metal 507
+	trade Plastic 338
+	fleet "Large Sheragi Military" 1050
+	fleet "Small Sheragi Military" 1230
+	object
+		sprite star/o-giant
+		period 10
+	object
+		sprite planet/gas1
+		distance 1105
+		period 98.39
+		object
+			sprite planet/miranda-b
+			distance 475
+			period 489.725
+		object
+			sprite planet/dust3
+			distance 614
+			period 575.113
+	object
+		sprite planet/gas1-b
+		distance 2840
+		period 405.401
+		object Leasher
+			sprite planet/rhea-b
+			distance 502
+			period 349.812
+	object
+		sprite planet/tethys-b
+		distance 4413
+		period 785.251
+	object
+		sprite planet/gas6
+		distance 5213
+		period 1008.182
 
 system Danoa
 	pos -239 -321
@@ -10768,6 +11001,79 @@ system Dixere
 			distance 555
 			period 69.6011
 
+system Dodon
+	hidden
+	pos -1658 576
+	government "Sheragi (Jibauni)"
+	habitable 980.051
+	belt 1902 2
+	haze _menu/haze-green
+	link Taniyn
+	asteroids "small rock" 18 2.075
+	asteroids "medium rock" 21 1.619
+	asteroids "large rock" 13 1.756
+	asteroids "small metal" 4 2.166
+	asteroids "large metal" 11 1.984
+	minables iron 8 1.972
+	minables silver 8 2.835
+	trade Clothing 391
+	trade Electronics 842
+	trade Equipment 471
+	trade Food 336
+	trade "Heavy Metals" 713
+	trade Industrial 611
+	trade "Luxury Goods" 1252
+	trade Medical 701
+	trade Metal 503
+	trade Plastic 377
+	fleet "Small Sheragi Military" 970
+	fleet "Large Sheragi Military" 1480
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 253.5
+		period 201.807
+		offset 180
+	object
+		sprite star/k0-old
+		distance 253.5
+		period 201.807
+	object Xicalins
+		sprite planet/desert7
+		distance 595
+		period 185.443
+	object
+		sprite planet/dust6-b
+		distance 915
+		period 353.645
+	object
+		sprite planet/dust1-b
+		distance 1228
+		period 549.836
+	object
+		sprite planet/gas6-b
+		distance 2194
+		period 1313.078
+		object
+			sprite planet/ice0
+			distance 382
+			period 282.225
+		object
+			sprite planet/dust7
+			distance 512
+			period 437.931
+	object
+		sprite planet/gas2
+		distance 3815
+		period 3010.769
+		object
+			sprite planet/rock17
+			distance 293
+			period 308.884
+		object
+			sprite planet/rock0
+			distance 416
+			period 320.731
+
 system Dokdobaru
 	pos -21.5695 -241.812
 	government "Quarg (Kor Efret)"
@@ -10888,6 +11194,74 @@ system Dokdobaru
 		distance 812
 		period 349.820
 		offset 220
+
+system Draig
+	hidden
+	pos -1671 494
+	government "Sheragi (Jibauni)"
+	habitable 625
+	belt 1211 10
+	haze _menu/haze-green
+	link Zenido
+	asteroids "small rock" 38 3.062
+	asteroids "medium rock" 47 2.306
+	asteroids "large rock" 89 2.759
+	asteroids "small metal" 24 2.57
+	asteroids "medium metal" 4 3.289
+	asteroids "large metal" 7 2.117
+	minables titanium 36 4.571
+	minables aluminum 49 3.464
+	trade Clothing 378
+	trade Electronics 825
+	trade Equipment 582
+	trade Food 327
+	trade "Heavy Metals" 774
+	trade Industrial 844
+	trade "Luxury Goods" 983
+	trade Medical 751
+	trade Metal 419
+	trade Plastic 295
+	fleet "Small Sheragi Military" 850
+	fleet "Large Sheragi Military" 1215
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/titan
+		distance 271
+		period 71.38
+	object
+		sprite planet/dust2
+		distance 723
+		period 311.048
+	object
+		sprite planet/jupiter-b
+		distance 1461
+		period 893.502
+		object
+			sprite planet/rock14-b
+			distance 309
+			period 142.153
+	object
+		sprite planet/gas4-b
+		distance 4496
+		period 4823.468
+		object
+			sprite planet/dust4
+			distance 266
+			period 134.928
+	object
+		sprite planet/gas9-b
+		distance 7510
+		period 10413.096
+		object
+			sprite planet/dust3-b
+			distance 269
+			period 166.774
+	object Inkon
+		sprite planet/station8
+		distance 8902
+		period 13438.518
 
 system Dschubba
 	pos -598 501
@@ -11618,6 +11992,65 @@ system "Ehma Ti"
 			sprite planet/ice0
 			distance 356
 			period 26.8467
+
+system Ejderha
+	hidden
+	pos -1669 794
+	government "Sheragi (Jibauni)"
+	habitable 1042.317
+	belt 1826 8
+	link Dakon
+	link Sarkan
+	asteroids "small rock" 2 3.375
+	asteroids "medium rock" 77 3.489
+	asteroids "large rock" 3 5.091
+	asteroids "small metal" 19 3.489
+	asteroids "medium metal" 135 5.606
+	asteroids "large metal" 5 3.146
+	minables copper 29 8.08
+	minables iron 47 8.3
+	trade Clothing 276
+	trade Electronics 641
+	trade Equipment 505
+	trade Food 386
+	trade "Heavy Metals" 1237
+	trade Industrial 699
+	trade "Luxury Goods" 1052
+	trade Medical 636
+	trade Metal 518
+	trade Plastic 256
+	fleet "Small Sheragi Military" 700
+	fleet "Large Sheragi Military" 750
+	object
+		sprite star/k0-old
+		distance 1.597
+		period 13.546
+	object
+		sprite star/f-dwarf
+		distance 65.403
+		period 13.546
+		offset 180
+	object
+		sprite planet/lava1-b
+		distance 274
+		period 56.193
+	object
+		sprite planet/rock5-b
+		distance 546
+		period 158.07
+	object
+		sprite planet/gas8-hot
+		distance 1238
+		period 539.686
+	object
+		sprite planet/gas5
+		distance 2256
+		period 1327.604
+		object Hinserdan
+			sprite planet/cloud4
+				scale 0.5
+			distance 306
+			period 140.088
 
 system Ek'kek'ru
 	pos -287.517 -727.738
@@ -16070,6 +16503,97 @@ system Hadar
 			distance 226
 			period 13.7068
 
+system Hajay
+	pos -1534 435
+	government Jibauni
+	habitable 7900
+	belt 1826 7
+	haze _menu/haze-green
+	link Huyya
+	link Kanalsa
+	link Rabalin
+	asteroids "large rock" 3 1.862
+	asteroids "medium metal" 5 1.594
+	asteroids "large metal" 1 1.805
+	minables aluminum 1 8.414
+	minables lead 34 8.921
+	trade Clothing 209
+	trade Electronics 820
+	trade Equipment 654
+	trade Food 198
+	trade "Heavy Metals" 1085
+	trade Industrial 546
+	trade "Luxury Goods" 982
+	trade Medical 491
+	trade Metal 258
+	trade Plastic 283
+	fleet "Hajay Pilgrim Transport" 600
+	fleet "Jibauni Pilgrim Transport" 900
+	fleet "Small Jibauni Military" 900
+	fleet "Large Jibauni Military" 700
+	fleet "Jibauni Leaders" 8000
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/a-giant
+		period 10
+	object
+		sprite planet/ice5-b
+		distance 434
+		period 40.689
+	object
+		sprite planet/gas2-b
+		distance 1315
+		period 214.603
+		object
+			sprite planet/cloud1
+			distance 308
+			period 204.327
+	object
+		sprite planet/gas0
+		distance 2343
+		period 510.393
+		object Kanlil
+			sprite planet/jibaunistation
+				scale 0.4
+			distance 500
+			period 300
+		object
+			sprite planet/lava0
+			distance 288
+			period 127.911
+		object
+			sprite planet/miranda-b
+			distance 419
+			period 405.726
+	object
+		sprite planet/gas5
+		distance 3403
+		period 893.386
+		object
+			sprite planet/rhea
+			distance 288
+			period 152.008
+	object
+		sprite planet/gas3-b
+		distance 6000
+		period 2091.574
+		object
+			sprite planet/dust3-b
+			distance 290
+			period 186.68
+	object
+		sprite planet/gas13
+		distance 16422
+		period 9470.775
+		object
+			sprite planet/rock14
+			distance 298
+			period 134.63
+	object Lamalmuq
+		sprite planet/lamalmuq
+		distance 8474.292
+		period 500
+
 system Hamal
 	pos -129 24
 	government Syndicate
@@ -16185,6 +16709,134 @@ system Han
 		sprite planet/dust1-b
 		distance 3667.91
 		period 2661.03
+
+system Hanal
+	pos -1579 390
+	government Uninhabited
+	habitable 625
+	belt 1662 6
+	belt 1914 10
+	haze _menu/haze-green
+	link Mimson
+	link Nifon
+	asteroids "medium rock" 11 2.856
+	asteroids "large rock" 2 4.335
+	asteroids "small metal" 10 4.08
+	asteroids "medium metal" 31 4.182
+	asteroids "large metal" 15 3.57
+	minables iron 8 5.932
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/dust5
+		distance 292
+		period 79.835
+	object
+		sprite planet/rock15
+		distance 607
+		period 239.278
+	object
+		sprite planet/gas3
+		distance 1932
+		period 1358.722
+	object
+		sprite planet/gas16-b
+		distance 3191
+		period 2884.099
+	object
+		sprite planet/gas7-b
+		distance 5735
+		period 6948.965
+		object
+			sprite planet/rock20
+			distance 287
+			period 183.791
+		object
+			sprite planet/lava0-b
+			distance 463
+			period 260.729
+
+system Haqal
+	pos -1325 512
+	government "Jibauni (Rebel)"
+	habitable 7000
+	belt 1430 9
+	haze _menu/haze-green
+	link Almanhaq
+	link Yinkin
+	asteroids "small rock" 6 2.62
+	asteroids "large rock" 15 2.776
+	asteroids "small metal" 41 2.62
+	asteroids "medium metal" 13 3.284
+	asteroids "large metal" 4 2.463
+	minables iron 8 4.278
+	minables aluminum 14 4.877
+	trade Clothing 167
+	trade Electronics 704
+	trade Equipment 869
+	trade Food 133
+	trade "Heavy Metals" 937
+	trade Industrial 747
+	trade "Luxury Goods" 1376
+	trade Medical 533
+	trade Metal 567
+	trade Plastic 465
+	fleet "Small Rebel Jibauni Military" 300
+	fleet "Large Rebel Jibauni Military" 600
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/b0
+		distance 26.871
+		period 10
+	object
+		sprite planet/neptune
+		distance 549
+		period 61.499
+		object
+			sprite planet/ice7
+			distance 241
+			period 97.914
+	object
+		sprite planet/gas11-b
+		distance 1331
+		period 232.155
+	object
+		sprite planet/gas14
+		distance 2234
+		period 504.819
+	object
+		sprite planet/gas0-hot
+		distance 2737
+		period 684.578
+	object
+		sprite planet/gas15
+		distance 8841
+		period 3974.322
+		object
+			sprite planet/rock7-b
+			distance 200
+			period 133.8
+		object
+			sprite planet/rock3-b
+			distance 359
+			period 257.124
+		object
+			sprite planet/dust1
+			distance 509
+			period 357.154
+	object
+		sprite planet/gas6-hot
+		distance 11493
+		period 5890.621
+		object
+			sprite planet/rock0-b
+			distance 244
+			period 144.074
+	object Sinsansun
+		sprite planet/forest6
+		distance 7205.183
+		period 900
 
 system Hassaleh
 	pos -291 -287
@@ -16838,6 +17490,74 @@ system Holeb
 		distance 3958.09
 		period 1700.75
 
+system Holo
+	pos -1362 576
+	government "Jibauni (Rebel)"
+	habitable 10
+	belt 1747 5
+	haze _menu/haze-green
+	link Almanhaq
+	link Yinkin
+	asteroids "small rock" 4 1.551
+	asteroids "medium rock" 44 1.04
+	asteroids "large rock" 8 1.403
+	asteroids "small metal" 80 1.271
+	asteroids "medium metal" 1 0.974
+	asteroids "large metal" 85 1.551
+	minables aluminum 4 2.188
+	trade Clothing 189
+	trade Electronics 769
+	trade Equipment 804
+	trade Food 120
+	trade "Heavy Metals" 1000
+	trade Industrial 754
+	trade "Luxury Goods" 1294
+	trade Medical 553
+	trade Metal 515
+	trade Plastic 470
+	fleet "Small Rebel Jibauni Military" 305
+	fleet "Large Rebel Jibauni Military" 730
+	hazard "Jibauni Slowing" 200
+	object
+		sprite planet/browndwarf-l-rouge
+		period 10
+	object
+		sprite planet/ocean0
+		distance 442
+		period 1175.421
+	object
+		sprite planet/rock17
+		distance 750
+		period 2598.076
+	object
+		sprite planet/gas16-b
+		distance 1358
+		period 6330.087
+	object
+		sprite planet/gas0-hot
+		distance 2215
+		period 13186.228
+		object
+			sprite planet/dust5-b
+			distance 237
+			period 95.486
+		object
+			sprite planet/rock3-b
+			distance 379
+			period 278.907
+	object
+		sprite planet/gas3-b
+		distance 3880
+		period 30570.855
+	object
+		sprite planet/gas5
+		distance 8606
+		period 100986.194
+	object Muntisir
+		sprite planet/cloud7
+		distance 6391.334
+		period 1254
+
 system Homeward
 	pos -1045.59 477.051
 	government Coalition
@@ -17059,6 +17779,67 @@ system Huud
 		sprite planet/gas9-b
 		distance 4967
 		period 2390.86
+
+system Huyya
+	pos -1439 470
+	government Jibauni
+	habitable 2160
+	belt 1500
+	belt 750
+	haze _menu/haze-green
+	link Hajay
+	link Kanalsa
+	link Kateaza
+	link Quinlo
+	link Rabalin
+	link Sabibal
+	asteroids "small rock" 300 9
+	asteroids "large rock" 150 8
+	minables iron 50 10
+	minables gold 15 10
+	minables silicon 150 5
+	trade Clothing 167
+	trade Electronics 831
+	trade Equipment 635
+	trade Food 209
+	trade "Heavy Metals" 1070
+	trade Industrial 548
+	trade "Luxury Goods" 953
+	trade Medical 514
+	trade Metal 224
+	trade Plastic 299
+	fleet "Small Jibauni Military" 530
+	fleet "Large Jibauni Military" 940
+	fleet "Jibauni Leaders" 3880
+	fleet "Large Rebel Jibauni Military" 5920
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/g0-old
+		period 10
+	object
+		sprite planet/mars-b
+		distance 438
+		period 78.894
+	object
+		sprite planet/desert1-b
+		distance 871
+		period 221.238
+	object
+		sprite planet/cloud6
+		distance 1259
+		period 384.478
+	object "Jibauni Wormhole"
+		sprite planet/wormhole
+		distance 2300
+		period 897.817
+		object
+			sprite planet/miranda
+			distance 302
+			period 248.269
+	object Baitoon
+		sprite planet/oberon
+		distance 3332
+		period 1655.353
 
 system Iigen
 	pos 928.4 -615.7
@@ -18337,6 +19118,71 @@ system Iyech'yek
 		distance 2050.85
 		period 2076.75
 
+system Iyon
+	hidden
+	pos -1818.5 735.875
+	government "Sheragi (Pirate)"
+	habitable 230
+	belt 1608 9
+	belt 2213 5
+	link Jonis
+	asteroids "small rock" 2 2.648
+	asteroids "medium rock" 7 3.062
+	asteroids "large rock" 1 1.595
+	asteroids "small metal" 5 1.914
+	asteroids "medium metal" 42 2.201
+	asteroids "large metal" 7 3.094
+	minables aluminum 2 3.591
+	trade Clothing 395
+	trade Electronics 857
+	trade Equipment 365
+	trade Food 242
+	trade "Heavy Metals" 744
+	trade Industrial 582
+	trade "Luxury Goods" 1208
+	trade Medical 510
+	trade Metal 463
+	trade Plastic 331
+	object
+		sprite star/m3
+		period 10
+	object
+		sprite planet/earth-b
+		distance 312
+		period 145.354
+	object
+		sprite planet/gas6
+		distance 1346
+		period 1302.458
+		object
+			sprite planet/ice0
+			distance 394
+			period 295.628
+		object
+			sprite planet/dust5-b
+			distance 535
+			period 323.853
+		object
+			sprite planet/rock0
+			distance 721
+			period 731.819
+	object
+		sprite planet/gas11
+		distance 3000
+		period 4333.891
+		object Bilinson
+			sprite planet/rock14-b
+			distance 304
+			period 138.716
+	object
+		sprite planet/gas13
+		distance 3930
+		period 6498.078
+	object
+		sprite planet/saturn
+		distance 6586
+		period 14097.064
+
 system Izar
 	pos -784 231
 	government Republic
@@ -18515,6 +19361,151 @@ system "Jentu Le"
 			distance 195
 			period 14.3334
 
+system Jibtrav
+	pos -888 432
+	government Uninhabited
+	habitable 4458.262
+	belt 1452 10
+	belt 1554 5
+	belt 2821 4
+	link Men
+	asteroids "small rock" 8 2.329
+	asteroids "medium rock" 42 2.329
+	asteroids "large rock" 9 1.754
+	asteroids "small metal" 34 1.946
+	asteroids "medium metal" 261 2.743
+	asteroids "large metal" 7 2.042
+	minables lead 5 4.836
+	minables copper 6 3.144
+	minables tungsten 18 2.629
+	fleet "Small Southern Pirates" 800
+	fleet "Large Jibauni Military" 50000
+	object
+		sprite star/f0
+		distance 84.576
+		period 49.924
+	object
+		sprite star/a0
+		distance 67.424
+		period 49.924
+		offset 180
+	object
+		sprite planet/desert1
+		distance 365
+		period 41.775
+	object
+		sprite planet/rock0
+		distance 713
+		period 114.054
+	object
+		sprite planet/gas6-hot
+		distance 1573
+		period 373.741
+		object
+			sprite planet/rock17-b
+			distance 213
+			period 191.454
+		object
+			sprite planet/europa
+			distance 323
+			period 274.61
+	object
+		sprite planet/gas0-b
+		distance 3155
+		period 1061.637
+		object
+			sprite planet/rock20
+			distance 284
+			period 180.916
+	object
+		sprite planet/jupiter
+		distance 4597
+		period 1867.192
+	object
+		sprite planet/browndwarf-l
+		distance 6138
+		period 2880.829
+	object "Jibauni Wormhole"
+		sprite planet/wormhole
+		distance 2300
+		period 1500
+
+system Jicson
+	pos -1679 370
+	government Uninhabited
+	habitable 10019.512
+	belt 1173 3
+	haze _menu/haze-green
+	link Mimson
+	link Nifon
+	link Rilal
+	asteroids "small rock" 7 5.657
+	asteroids "medium rock" 105 5.425
+	asteroids "large rock" 3 4.34
+	asteroids "small metal" 95 5.89
+	asteroids "medium metal" 8 5.657
+	asteroids "large metal" 3 6.277
+	minables copper 18 8.191
+	minables tungsten 18 6.793
+	minables aluminum 26 8.372
+	object
+		sprite star/g5
+		distance 149.712
+		period 59.649
+		offset 180
+	object
+		sprite star/o5
+		distance 45.288
+		period 59.649
+	object
+		sprite planet/callisto-b
+		distance 333
+		period 24.283
+	object
+		sprite planet/gas1-b
+		distance 1018
+		period 129.795
+	object
+		sprite planet/gas1
+		distance 2268
+		period 431.62
+		object
+			sprite planet/miranda
+			distance 462
+			period 469.759
+		object
+			sprite planet/europa-b
+			distance 572
+			period 647.151
+	object
+		sprite planet/gas15
+		distance 3809
+		period 939.406
+		object
+			sprite planet/lava0-b
+			distance 223
+			period 87.152
+		object
+			sprite planet/rock14-b
+			distance 367
+			period 184
+	object
+		sprite planet/gas11-b
+		distance 4877
+		period 1361.024
+		object
+			sprite planet/dust0-b
+			distance 252
+			period 246.374
+	object
+		sprite planet/gas6-b
+		distance 11247
+		period 4766.414
+		object
+			sprite planet/rock3
+			distance 381
+			period 281.118
+
 system Jied
 	pos 720.68 -541.24
 	government Uninhabited
@@ -18550,6 +19541,69 @@ system Jied
 		sprite planet/gas7
 		distance 2836
 		period 2930.38
+
+system Jonis
+	hidden
+	pos -1783 665
+	government "Sheragi (Pirate)"
+	habitable 4500
+	belt 1286
+	link Iyon
+	link Nin
+	link Piobin
+	link Taniyn
+	asteroids "small rock" 5 1.893
+	asteroids "medium rock" 27 1.414
+	asteroids "large rock" 13 1.643
+	asteroids "medium metal" 23 1.102
+	asteroids "large metal" 1 1.435
+	trade Clothing 428
+	trade Electronics 874
+	trade Equipment 415
+	trade Food 275
+	trade "Heavy Metals" 664
+	trade Industrial 563
+	trade "Luxury Goods" 1254
+	trade Medical 539
+	trade Metal 507
+	trade Plastic 326
+	fleet "Small Sheragi Pirates" 500
+	fleet "Large Sheragi Pirates" 1000
+	object
+		sprite star/k-supergiant
+		period 10
+	object
+		sprite planet/gas17
+		distance 974
+		period 181.256
+		object
+			sprite planet/dust3
+			distance 262
+			period 160.307
+	object
+		sprite planet/browndwarf-l
+		distance 1834
+		period 468.331
+	object
+		sprite planet/gas8
+		distance 3244
+		period 1101.73
+		object
+			sprite planet/rock14-b
+			distance 346
+			period 168.435
+		object Rinson
+			sprite "planet/asteroid base" # this was randomly generated but it was decided to use it anyway
+			distance 529
+			period 318.421
+		object
+			sprite planet/dust7-b
+			distance 702
+			period 703.082
+	object
+		sprite planet/gas10-hot
+		distance 4724
+		period 1936.059
 
 system "Jyeg Pvu"
 	pos 904.75 -426.028
@@ -18850,6 +19904,73 @@ system Kaliptari
 			distance 316
 			period 29.5684
 
+system Kanalsa
+	pos -1469 433
+	government Jibauni
+	habitable 17025
+	belt 1675 8
+	haze _menu/haze-green
+	link Hajay
+	link Huyya
+	asteroids "medium rock" 17 2.079
+	asteroids "large rock" 16 3.515
+	asteroids "large metal" 1 2.117
+	minables titanium 2 3.255
+	minables silver 4 4.492
+	trade Clothing 199
+	trade Electronics 833
+	trade Equipment 707
+	trade Food 165
+	trade "Heavy Metals" 1123
+	trade Industrial 528
+	trade "Luxury Goods" 957
+	trade Medical 430
+	trade Metal 191
+	trade Plastic 275
+	fleet "Small Jibauni Military" 430
+	fleet "Large Jibauni Military" 900
+	fleet "Jibauni Leaders" 4920
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/b-supergiant
+		period 10
+	object
+		sprite planet/gas14
+		distance 584
+		period 43.265
+	object
+		sprite planet/gas3
+		distance 1139
+		period 117.843
+	object
+		sprite planet/jupiter
+		distance 2152
+		period 306.041
+		object
+			sprite planet/luna-b
+			distance 286
+			period 182.831
+		object
+			sprite planet/dust3
+			distance 417
+			period 321.888
+	object
+		sprite planet/browndwarf-y
+		distance 4859
+		period 1038.333
+	object
+		sprite planet/gas17-b
+		distance 5467
+		period 1239.196
+	object Kahbani
+		sprite planet/nebula1
+		distance 3407.739
+		period 175
+		object
+			sprite planet/dust4
+			distance 301.985
+			period 10
+
 system Kanguwa
 	pos 995.47 -329.975
 	government Uninhabited
@@ -19111,6 +20232,79 @@ system Kasikfar
 		sprite planet/callisto
 		distance 1339.26
 		period 277.250
+
+system Kateaza
+	pos -1398 496
+	government Uninhabited
+	habitable 22749.505
+	belt 1831 3
+	belt 2226 7
+	haze _menu/haze-green
+	link Almanhaq
+	link Huyya
+	link Quinlo
+	asteroids "small rock" 2 4.464
+	asteroids "medium rock" 6 3.236
+	asteroids "large rock" 1 5.58
+	asteroids "large metal" 1 4.018
+	minables titanium 1 6.648
+	minables lead 2 7.433
+	fleet "Small Jibauni Military" 500
+	fleet "Large Jibauni Military" 860
+	fleet "Jibauni Leaders" 50000
+	fleet "Small Rebel Jibauni Military" 300
+	fleet "Large Rebel Jibauni Military" 1200
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/o-giant
+		distance 478.5
+		period 523.351
+	object
+		sprite star/k-supergiant
+		distance 478.5
+		period 523.351
+		offset 180
+	object
+		sprite planet/rock20
+		distance 1172
+		period 106.406
+	object
+		sprite planet/ocean5
+		distance 1490
+		period 152.529
+	object
+		sprite planet/ice0
+		distance 2097
+		period 254.666
+	object
+		sprite planet/gas5
+		distance 2737
+		period 379.74
+		object
+			sprite planet/luna
+			distance 299
+			period 195.437
+		object
+			sprite planet/europa
+			distance 421
+			period 408.634
+	object
+		sprite planet/saturn
+		distance 3993
+		period 669.149
+		object
+			sprite planet/miranda
+			distance 271
+			period 211.04
+		object
+			sprite planet/dust3
+			distance 369
+			period 267.942
+	object "Station of Power"
+		sprite planet/sheragistation
+			scale 2
+		distance 3373.643
+		period 450
 
 system "Kaus Australis"
 	pos -284 395
@@ -22505,6 +23699,7 @@ system Men
 	belt 1580
 	haze _menu/haze-33
 	link "Beta Lupi"
+	link Jibtrav
 	link Thuban
 	asteroids "small rock" 9 3.504
 	asteroids "medium rock" 2 5.376
@@ -23120,6 +24315,67 @@ system Mimosa
 		sprite planet/rhea-b
 		distance 2070.21
 		period 1958.75
+
+system Mimson
+	pos -1651 427
+	government Uninhabited
+	habitable 10
+	belt 1494 10
+	belt 2112 10
+	haze _menu/haze-green
+	link Hanal
+	link Jicson
+	asteroids "small rock" 6 1.674
+	asteroids "medium rock" 2 1.555
+	asteroids "large rock" 4 2.063
+	asteroids "small metal" 105 1.555
+	asteroids "medium metal" 17 2.272
+	asteroids "large metal" 19 2.631
+	minables copper 4 3.081
+	minables lead 26 2.151
+	object
+		sprite planet/browndwarf-y-rouge
+		period 10
+	object
+		sprite planet/cloud1-b
+		distance 550
+		period 1631.564
+	object
+		sprite planet/gas1
+		distance 1253
+		period 5610.307
+	object
+		sprite planet/neptune
+		distance 2113
+		period 12285.964
+		object
+			sprite planet/rock20
+			distance 244
+			period 144.074
+	object
+		sprite planet/gas9-b
+		distance 3061
+		period 21421.752
+		object
+			sprite planet/rock17-b
+			distance 261
+			period 259.69
+		object
+			sprite planet/dust7-b
+			distance 392
+			period 293.379
+	object
+		sprite planet/gas5
+		distance 5108
+		period 46178.128
+		object
+			sprite planet/lava0
+			distance 247
+			period 101.593
+		object
+			sprite planet/rock1
+			distance 415
+			period 221.253
 
 system Minkar
 	pos -823 138
@@ -24180,6 +25436,77 @@ system Nenia
 			distance 353
 			period 21.8746
 
+system Nifon
+	pos -1636 329
+	government Uninhabited
+	habitable 10645.304
+	belt 1132 2
+	belt 1709 9
+	haze _menu/haze-green
+	link Hanal
+	link Jicson
+	link Rilal
+	asteroids "small rock" 7 3.432
+	asteroids "medium rock" 68 3.354
+	asteroids "large rock" 5 3.237
+	asteroids "small metal" 3 2.457
+	asteroids "medium metal" 119 3.471
+	asteroids "large metal" 3 2.808
+	minables iron 30 5.223
+	object
+		sprite star/a0
+		distance 130.201
+		period 55.341
+	object
+		sprite star/o5
+		distance 63.799
+		period 55.341
+		offset 180
+	object
+		sprite planet/ocean0-b
+		distance 381
+		period 28.832
+	object
+		sprite planet/gas3-b
+		distance 1020
+		period 126.294
+		object
+			sprite planet/dust7-b
+			distance 298
+			period 194.458
+	object
+		sprite planet/gas2-b
+		distance 2015
+		period 350.666
+	object
+		sprite planet/uranus-b
+		distance 3610
+		period 840.895
+		object
+			sprite planet/rock7
+			distance 221
+			period 155.418
+	object
+		sprite planet/gas13-b
+		distance 6997
+		period 2269.075
+		object
+			sprite planet/rock0-b
+			distance 315
+			period 211.333
+		object
+			sprite planet/desert4
+			distance 423
+			period 411.55
+		object
+			sprite planet/callisto-b
+			distance 549
+			period 336.648
+	object
+		sprite planet/europa-b
+		distance 10687
+		period 4283.164
+
 system Nihal
 	pos -262 -121
 	government Republic
@@ -24253,6 +25580,69 @@ system Nihal
 			sprite planet/mercury-b
 			distance 363
 			period 23.3833
+
+system Nin
+	hidden
+	pos -1871.5 638.875
+	government "Sheragi (Pirate)"
+	habitable 17025.003
+	belt 1636
+	belt 2139 5
+	link Jonis
+	asteroids "small rock" 14 2.349
+	asteroids "medium rock" 130 2.538
+	asteroids "large rock" 53 1.755
+	asteroids "medium metal" 27 2.43
+	asteroids "large metal" 1 1.755
+	minables uranium 4 3.793
+	minables titanium 38 2.544
+	trade Clothing 401
+	trade Electronics 850
+	trade Equipment 460
+	trade Food 276
+	trade "Heavy Metals" 730
+	trade Industrial 583
+	trade "Luxury Goods" 1270
+	trade Medical 564
+	trade Metal 471
+	trade Plastic 319
+	object
+		sprite planet/browndwarf-y-rouge
+		distance 286
+		period 241.835
+	object
+		sprite star/b-supergiant
+		distance 286
+		period 241.835
+		offset 180
+	object
+		sprite planet/rock10
+		distance 901
+		period 82.909
+		object
+			sprite planet/miranda
+			distance 182
+			period 116.15
+	object
+		sprite planet/gas11-b
+		distance 1670
+		period 209.214
+		object
+			sprite planet/ice8-b
+			distance 294
+			period 190.556
+	object Andwesher
+		sprite planet/cloud5-b
+		distance 2722
+		period 435.36
+	object
+		sprite planet/uranus-b
+		distance 3434
+		period 616.903
+		object
+			sprite planet/lava0
+			distance 269
+			period 115.464
 
 system Nnatai
 	pos 513.2 -470.3
@@ -26328,6 +27718,75 @@ system Pik'ro'iyak
 		distance 3272.11
 		period 4936.71
 
+system Piobin
+	hidden
+	pos -1808.5 591.875
+	government "Sheragi (Pirate)"
+	habitable 10366.563
+	belt 1159 3
+	belt 1866 5
+	link Jonis
+	asteroids "small rock" 3 2.434
+	asteroids "medium rock" 3 3.791
+	asteroids "large rock" 50 3.511
+	asteroids "small metal" 2 3.551
+	asteroids "medium metal" 48 2.873
+	asteroids "large metal" 3 3.152
+	minables silver 4 5.361
+	minables iron 5 5.521
+	minables titanium 6 4.629
+	trade Clothing 400
+	trade Electronics 889
+	trade Equipment 371
+	trade Food 291
+	trade "Heavy Metals" 748
+	trade Industrial 536
+	trade "Luxury Goods" 1256
+	trade Medical 554
+	trade Metal 488
+	trade Plastic 308
+	object
+		sprite star/f-supergiant
+		distance 384.5
+		period 376.977
+	object
+		sprite star/g-supergiant
+		distance 384.5
+		period 376.977
+		offset 180
+	object Zintolin
+		sprite planet/cloud6
+		distance 1088
+		period 140.989
+	object
+		sprite planet/vesvi
+		distance 1878
+		period 319.732
+		object
+			sprite planet/rock0-b
+			distance 449
+			period 359.642
+	object
+		sprite planet/gas8-b
+		distance 2783
+		period 576.783
+	object
+		sprite planet/gas11
+		distance 4163
+		period 1055.242
+	object
+		sprite planet/uranus
+		distance 5794
+		period 1732.648
+	object
+		sprite planet/gas6
+		distance 8590
+		period 3127.752
+		object
+			sprite planet/dust4-b
+			distance 369
+			period 220.454
+
 system Plort
 	pos -708.587 723.051
 	government Coalition
@@ -27406,6 +28865,85 @@ system Quaru
 		period 349.820
 		offset 237
 
+system Quinlo
+	pos -1376 440
+	government Uninhabited
+	habitable 3650
+	belt 1615 10
+	"jump range" 150
+	link Huyya
+	link Kanalsa
+	link Kateaza
+	asteroids "small rock" 3 2.246
+	asteroids "medium rock" 92 1.958
+	asteroids "large rock" 5 1.498
+	asteroids "small metal" 5 1.469
+	asteroids "medium metal" 1 2.88
+	asteroids "large metal" 7 2.246
+	minables platinum 25 3.676
+	minables gold 40 3.481
+	minables silver 60 5
+	fleet "Small Jibauni Military" 700
+	fleet "Large Jibauni Military" 1000
+	fleet "Small Rebel Jibauni Military" 500
+	fleet "Large Rebel Jibauni Military" 1500
+	fleet "Heliarch (Jibauni)" 600
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 391
+		period 51.189
+	object
+		sprite planet/cloud2
+		distance 839
+		period 160.9
+	object
+		sprite planet/jupiter
+		distance 1725
+		period 474.348
+		object
+			sprite planet/oberon-b
+			distance 252
+			period 246.374
+		object
+			sprite planet/rock17
+			distance 370
+			period 438.326
+		object
+			sprite planet/rock20
+			distance 517
+			period 444.362
+	object
+		sprite planet/gas10-b
+		distance 2635
+		period 895.539
+	object
+		sprite planet/gas11-b
+		distance 4696
+		period 2130.618
+		object
+			sprite planet/rock3-b
+			distance 311
+			period 207.32
+	object
+		sprite planet/gas8
+		distance 14914
+		period 12058.819
+		object
+			sprite planet/ice0
+			distance 332
+			period 228.669
+		object
+			sprite planet/rock7-b
+			distance 435
+			period 429.186
+		object
+			sprite planet/desert4-b
+			distance 536
+			period 587.028
+
 system Queri
 	pos 69 518
 	government Uninhabited
@@ -27485,6 +29023,79 @@ system Queri
 		distance 812
 		period 349.820
 		offset 335
+
+system Rabalin
+	pos -1534 500
+	government Jibauni
+	habitable 22300.002
+	belt 1015
+	belt 2261 9
+	haze _menu/haze-green
+	link Hajay
+	link Huyya
+	link Sabibal
+	asteroids "small rock" 4 2.513
+	asteroids "medium rock" 4 3.675
+	asteroids "large rock" 7 2.625
+	asteroids "small metal" 4 2.175
+	asteroids "medium metal" 9 3.15
+	asteroids "large metal" 1 2.288
+	minables lead 2 3.864
+	trade Clothing 206
+	trade Electronics 802
+	trade Equipment 629
+	trade Food 224
+	trade "Heavy Metals" 982
+	trade Industrial 524
+	trade "Luxury Goods" 1033
+	trade Medical 542
+	trade Metal 262
+	trade Plastic 256
+	fleet "Small Jibauni Military" 370
+	fleet "Large Jibauni Military" 1450
+	fleet "Jibauni Leaders" 5000
+	fleet "Large Jibauni Military" 1000
+	fleet "Jibauni Leaders" 8800
+	hazard "Jibauni Slowing" 200
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 262.5
+		period 212.649
+	object
+		sprite star/o-giant
+		distance 262.5
+		period 212.649
+		offset 180
+	object
+		sprite planet/dust2-b
+		distance 715
+		period 51.211
+	object
+		sprite planet/ocean0-b
+		distance 1033
+		period 88.932
+	object
+		sprite planet/neptune-b
+		distance 1696
+		period 187.088
+		object
+		object Taltahard
+			sprite planet/moon56
+				scale 0.5
+			distance 395
+			period 250
+		object
+			sprite planet/oberon
+			distance 243
+			period 233.294
+	object
+		sprite planet/gas3-b
+		distance 2477
+		period 330.215
+		object
+			sprite planet/rhea
+			distance 307
+			period 167.296
 
 system Rajak
 	pos -270 -236
@@ -28174,6 +29785,51 @@ system Rigel
 			distance 380
 			period 22.2115
 
+system Rilal
+	pos -1696.222 327.556
+	government Uninhabited
+	habitable 10
+	belt 1088 3
+	haze _menu/haze-green
+	link Jicson
+	link Nifon
+	link Sollo
+	asteroids "small rock" 43 3.4
+	asteroids "medium rock" 26 1.734
+	asteroids "large rock" 43 2.21
+	asteroids "small metal" 5 2.04
+	asteroids "large metal" 4 2.754
+	minables titanium 5 4.707
+	object
+		sprite star/g5
+		distance 223
+		period 166.505
+	object
+		sprite planet/browndwarf-l-rouge
+		distance 223
+		period 166.505
+		offset 180
+	object
+		sprite planet/ocean3-b
+		distance 660
+		period 2144.746
+	object
+		sprite planet/desert5-b
+		distance 1079
+		period 4483.242
+	object
+		sprite planet/ganymede-b
+		distance 1480
+		period 7201.991
+	object
+		sprite planet/gas16
+		distance 2407
+		period 14937.37
+		object
+			sprite planet/ice0-b
+			distance 219
+			period 122.509
+
 system Ritilas
 	pos 11 523
 	government Uninhabited
@@ -28251,6 +29907,58 @@ system Ritilas
 			sprite planet/oberon
 			distance 365
 			period 26.1475
+
+system Rong
+	hidden
+	pos -1547 787
+	government "Sheragi (Jibauni)"
+	habitable 22300
+	belt 1275 3
+	link Dakon
+	link Sarkan
+	asteroids "small rock" 209 3.834
+	asteroids "medium rock" 135 4.536
+	asteroids "large rock" 59 3.996
+	asteroids "small metal" 3 3.51
+	asteroids "medium metal" 14 4.482
+	asteroids "large metal" 1 3.834
+	minables titanium 33 7.177
+	minables uranium 62 6.91
+	trade Clothing 177
+	trade Electronics 843
+	trade Equipment 428
+	trade Food 298
+	trade "Heavy Metals" 790
+	trade Industrial 769
+	trade "Luxury Goods" 1042
+	trade Medical 855
+	trade Metal 485
+	trade Plastic 380
+	fleet "Small Sheragi Military" 915
+	fleet "Large Sheragi Military" 1430
+	object
+		sprite star/o-giant
+		period 10
+	object
+		sprite planet/rock15-b
+		distance 532
+		period 32.868
+	object Zigzogzinzo
+		sprite planet/rock1
+		distance 997
+		period 84.324
+	object
+		sprite planet/gas16-b
+		distance 1709
+		period 189.243
+	object
+		sprite planet/gas4-b
+		distance 4502
+		period 809.125
+		object
+			sprite planet/rock0-b
+			distance 287
+			period 183.791
 
 system Rouseu
 	pos 566.7 -404.133
@@ -28431,6 +30139,88 @@ system Rutilicus
 			sprite planet/rock0
 			distance 356
 			period 33.1083
+
+system Sabibal
+	pos -1469 503
+	government Jibauni
+	habitable 1434.617
+	belt 1926 9
+	belt 2389 7
+	haze _menu/haze-green
+	link Huyya
+	link Rabalin
+	asteroids "small rock" 2 3.689
+	asteroids "medium rock" 6 3.162
+	asteroids "large rock" 35 3.531
+	asteroids "small metal" 12 4.585
+	asteroids "medium metal" 1 4.796
+	asteroids "large metal" 5 4.848
+	minables iron 2 5.048
+	minables uranium 9 6.368
+	minables lead 9 5.175
+	trade Clothing 167
+	trade Electronics 829
+	trade Equipment 659
+	trade Food 244
+	trade "Heavy Metals" 991
+	trade Industrial 544
+	trade "Luxury Goods" 972
+	trade Medical 521
+	trade Metal 197
+	trade Plastic 276
+	fleet "Small Jibauni Military" 800
+	fleet "Large Jibauni Military" 700
+	fleet "Jibauni Leaders" 7350
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/o-dwarf
+		distance 109.95
+		period 58.525
+	object
+		sprite star/g8
+		distance 10.05
+		period 58.525
+		offset 180
+	object
+		sprite planet/desert0
+		distance 275
+		period 48.161
+	object
+		sprite planet/lava3
+		distance 599
+		period 154.822
+	object
+		sprite planet/desert9
+		distance 1138
+		period 405.42
+	object Laqualk
+		sprite planet/gas6
+		distance 2226.823
+		period 1140.661
+	object
+		sprite planet/gas5
+		distance 3310
+		period 2011.102
+		object
+			sprite planet/ice7
+			distance 312
+			period 144.228
+	object
+		sprite planet/gas6-hot
+		distance 7899
+		period 7413.96
+		object
+			sprite planet/ice8
+			distance 239
+			period 139.668
+	object
+		sprite planet/gas6
+		distance 2226.82
+		period 1140.66
+	object Landalmon
+		sprite planet/oberon
+		distance 6478.932
+		period 2000
 
 system Sabik
 	pos -675 379
@@ -29003,6 +30793,70 @@ system Sarin
 		sprite planet/dust4-b
 		distance 3371.1
 		period 2382.35
+
+system Sarkan
+	hidden
+	pos -1582 753
+	government Uninhabited
+	habitable 2560
+	belt 1475 3
+	link Chinjoka
+	link Ejderha
+	link Rong
+	asteroids "small rock" 2 5.003
+	asteroids "large rock" 9 5.136
+	asteroids "small metal" 21 3.468
+	asteroids "medium metal" 13 5.069
+	asteroids "large metal" 28 4.802
+	minables gold 1 5.578
+	minables iron 2 8.06
+	minables copper 10 5.659
+	fleet "Small Sheragi Military" 815
+	fleet "Large Sheragi Military" 1375
+	hazard "Sheragi Ion" 500
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/lava3
+		distance 285
+		period 38.037
+	object
+		sprite planet/uranus
+		distance 1547
+		period 481.034
+		object
+			sprite planet/oberon
+			distance 337
+			period 37.485
+		object Linkson
+			sprite planet/rock7
+			distance 527
+			period 572.305
+		object
+			sprite planet/dust5
+			distance 643
+			period 426.711
+	object
+		sprite planet/gas10-hot
+		distance 3164
+		period 1407.002
+		object
+			sprite planet/ice0-b
+			distance 232
+			period 133.577
+		object
+			sprite planet/miranda-b
+			distance 359
+			period 321.776
+		object
+			sprite planet/io
+			distance 458
+			period 370.509
+	object
+		sprite planet/callisto-b
+		distance 6058
+		period 3727.64
 
 system Sayaiban
 	pos 250.431 -274.812
@@ -29755,6 +31609,88 @@ system Shaula
 			sprite planet/lava0-b
 			distance 359
 			period 22.0718
+
+system Sheraig
+	hidden
+	pos -1571 618
+	government "Sheragi (Jibauni)"
+	habitable 7742.093
+	belt 1420
+	haze _menu/haze-green
+	link Somitaw
+	asteroids "small rock" 263 7.476
+	asteroids "medium rock" 2 4.872
+	asteroids "large rock" 22 4.872
+	asteroids "small metal" 43 5.544
+	asteroids "medium metal" 19 7.98
+	asteroids "large metal" 30 5.88
+	minables silver 4 12.884
+	minables tungsten 77 8.34
+	trade Clothing 304
+	trade Electronics 595
+	trade Equipment 566
+	trade Food 542
+	trade "Heavy Metals" 830
+	trade Industrial 817
+	trade "Luxury Goods" 1005
+	trade Medical 671
+	trade Metal 460
+	trade Plastic 398
+	fleet "Small Sheragi Military" 530
+	fleet "Large Sheragi Military" 720
+	object Shenal
+		sprite planet/desert10-b
+		distance 1724.974
+		period 436.687
+	object
+		sprite star/k-supergiant
+		distance 338.495
+		period 436.687
+		offset 180
+	object
+		sprite planet/gas10-hot
+		distance 1408
+		period 240.179
+		object
+			sprite planet/ice8-b
+			distance 197
+			period 104.52
+		object
+			sprite planet/rock14-b
+			distance 366
+			period 183.248
+	object
+		sprite planet/gas15-b
+		distance 2243
+		period 482.919
+		object
+			sprite planet/rock0-b
+			distance 216
+			period 120
+	object
+		sprite planet/gas3-b
+		distance 3339
+		period 877.113
+		object
+			sprite planet/lava0-b
+			distance 303
+			period 138.033
+	object
+		sprite planet/browndwarf-t
+		distance 4293
+		period 1278.71
+	object
+		sprite planet/gas1-b
+		distance 7517
+		period 2962.768
+		object
+			sprite planet/io-b
+			distance 464
+			period 377.814
+		object
+			sprite planet/callisto
+			distance 628
+			period 411.867
 
 system Sheratan
 	pos -40 45
@@ -30634,6 +32570,54 @@ system Sol
 		distance 15730
 		period 24012.7
 
+system Sollo
+	pos -1748.222 343.556
+	government Uninhabited
+	habitable 8010.345
+	belt 1056 3
+	haze _menu/haze-green
+	link Rilal
+	asteroids "medium rock" 1 3.132
+	asteroids "large rock" 1 1.914
+	asteroids "small metal" 7 2.61
+	asteroids "medium metal" 7 2.018
+	asteroids "large metal" 3 2.784
+	minables titanium 3 3.56
+	object
+		sprite star/o-dwarf
+		distance 206.059
+		period 75.901
+	object
+		sprite star/a-giant
+		distance 5.441
+		period 75.901
+		offset 180
+	object
+		sprite planet/ocean2
+		distance 383
+		period 33.499
+	object
+		sprite planet/rock3
+		distance 768
+		period 95.121
+	object
+		sprite planet/gas14-b
+		distance 1531
+		period 267.73
+	object
+		sprite planet/titan-b
+		distance 1916
+		period 374.824
+	object
+		sprite planet/cloud7
+			scale 2
+		distance 5168.236
+		period 591.6981
+	object
+		sprite planet/forest1
+		distance 6020.284
+		period 701.583
+
 system "Sol Arach"
 	pos -711.587 649.051
 	government Coalition
@@ -30709,6 +32693,52 @@ system "Sol Arach"
 			sprite planet/dust0
 			distance 346
 			period 26.2104
+
+system "Sol Diba"
+	hidden
+	pos -1457 643
+	government Diba
+	habitable 1310
+	haze _menu/haze-green
+	trade Clothing 376
+	trade Electronics 887
+	trade Equipment 512
+	trade Food 536
+	trade "Heavy Metals" 621
+	trade Industrial 855
+	trade "Luxury Goods" 946
+	trade Medical 668
+	trade Metal 485
+	trade Plastic 366
+	fleet "Small Diba" 580
+	fleet "Large Diba" 700
+	object
+		sprite star/f8
+		period 10
+	object
+		sprite planet/callisto
+		distance 277
+		period 50.95
+	object
+		sprite planet/desert0-b
+		distance 665
+		period 189.521
+	object
+		sprite planet/gas15-b
+		distance 1158
+		period 435.499
+	object
+		sprite planet/neptune
+		distance 1733
+		period 797.301
+	object
+		sprite planet/desert4-b
+		distance 6665
+		period 6013.462
+	object "Diba Station"
+		sprite planet/station10
+		distance 2135.944
+		period 200
 
 system "Sol Kimek"
 	pos -1310.63 227.214
@@ -30931,6 +32961,88 @@ system Solifar
 		sprite planet/gas7
 		distance 2068.97
 		period 2104.34
+
+system Somitaw
+	hidden
+	pos -1603 657
+	government "Sheragi (Jibauni)"
+	habitable 2300
+	belt 1311 7
+	haze _menu/haze-green
+	link Chinjoka
+	link Sheraig
+	asteroids "small rock" 17 1.989
+	asteroids "medium rock" 10 1.334
+	asteroids "large rock" 90 2.036
+	asteroids "small metal" 59 2.317
+	asteroids "medium metal" 57 1.404
+	asteroids "large metal" 6 1.24
+	minables silver 4 2.4
+	minables lead 6 2.874
+	trade Clothing 328
+	trade Electronics 603
+	trade Equipment 557
+	trade Food 509
+	trade "Heavy Metals" 875
+	trade Industrial 824
+	trade "Luxury Goods" 1017
+	trade Medical 647
+	trade Metal 498
+	trade Plastic 419
+	fleet "Small Sheragi Military" 700
+	fleet "Large Sheragi Military" 830
+	object
+		sprite star/m-giant
+		distance 45.051
+		period 10
+	object
+		sprite planet/tethys-b
+		distance 627
+		period 130.948
+	object
+		sprite planet/uranus-b
+		distance 1226
+		period 358.04
+		object
+			sprite planet/rock7
+			distance 232
+			period 167.164
+		object
+			sprite planet/dust5
+			distance 363
+			period 181
+	object
+		sprite planet/ice0-b
+		distance 2006
+		period 749.363
+	object
+		sprite planet/gas0-b
+		distance 2612
+		period 1113.412
+		object
+			sprite planet/dust7-b
+			distance 288
+			period 184.752
+	object
+		sprite planet/browndwarf-y
+		distance 3429
+		period 1674.74
+		object
+			sprite planet/dust0-b
+			distance 303
+			period 324.832
+	object
+		sprite planet/gas11
+		distance 5268
+		period 3189.075
+	object
+		sprite planet/ocean9
+		distance 4022.314
+		period 1230
+		object "Inhelk"
+			sprite planet/dust6
+			distance 800
+			period 50
 
 system Sospi
 	pos -317 -161
@@ -31725,6 +33837,78 @@ system "Tania Australis"
 			sprite planet/dust5-b
 			distance 577
 			period 68.3166
+
+system Taniyn
+	hidden
+	pos -1692 628
+	government Uninhabited
+	habitable 8400
+	belt 1377 7
+	belt 2106 7
+	haze _menu/haze-green
+	link Chinjoka
+	link Dodon
+	link Zenido
+	link Jonis
+	asteroids "small rock" 28 2.366
+	asteroids "medium rock" 2 4.083
+	asteroids "large rock" 120 4.547
+	asteroids "small metal" 50 4.362
+	asteroids "medium metal" 74 4.083
+	asteroids "large metal" 21 4.64
+	minables lead 44 4.481
+	minables silicon 28 4.255
+	minables neodymium 63 6.776
+	fleet "Small Sheragi Military" 1100
+	fleet "Large Sheragi Military" 1500
+	hazard "Sheragi Ion" 500
+	object
+		sprite star/f-supergiant
+		period 10
+	object
+		sprite planet/gas9
+		distance 930
+		period 123.778
+		object
+			sprite planet/europa-b
+			distance 258
+			period 196.039
+	object
+		sprite planet/gas0-hot
+		distance 1971
+		period 381.901
+		object
+			sprite planet/dust3-b
+			distance 222
+			period 125.035
+		object
+			sprite planet/dust7-b
+			distance 384
+			period 284.444
+	object
+		sprite planet/gas1-b
+		distance 3335
+		period 840.551
+		object
+			sprite planet/ice0-b
+			distance 466
+			period 380.259
+	object
+		sprite planet/gas17
+		distance 6532
+		period 2304.038
+		object
+			sprite planet/rhea
+			distance 272
+			period 139.519
+	object
+		sprite planet/jupiter
+		distance 7257
+		period 2698.088
+	object
+		sprite planet/gas1
+		distance 16234
+		period 9027.316
 
 system Tarazed
 	pos -194 448
@@ -34617,6 +36801,83 @@ system Yerser
 		distance 3964.75
 		period 1652.86
 
+system Yinkin
+	pos -1295 562.667
+	government "Jibauni (Rebel)"
+	habitable 5600
+	belt 1216
+	haze _menu/haze-green
+	link Almanhaq
+	link Haqal
+	link Holo
+	asteroids "small rock" 26 4.83
+	asteroids "medium rock" 46 4.83
+	asteroids "large rock" 39 3.671
+	asteroids "small metal" 4 3.606
+	asteroids "medium metal" 30 3.928
+	asteroids "large metal" 10 5.41
+	minables iron 1 8.259
+	trade Clothing 166
+	trade Electronics 716
+	trade Equipment 662
+	trade Food 202
+	trade "Heavy Metals" 988
+	trade Industrial 679
+	trade "Luxury Goods" 1139
+	trade Medical 570
+	trade Metal 368
+	trade Plastic 477
+	fleet "Small Rebel Jibauni Military" 460
+	fleet "Large Rebel Jibauni Military" 700
+	hazard "Jibauni Slowing" 200
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/rhea
+		distance 290
+		period 26.398
+	object
+		sprite planet/gas4
+		distance 1392
+		period 277.603
+		object
+			sprite planet/dust3-b
+			distance 257
+			period 155.74
+		object
+			sprite planet/io-b
+			distance 396
+			period 297.881
+		object
+			sprite planet/luna-b
+			distance 513
+			period 439.214
+	object
+		sprite planet/uranus-b
+		distance 2613
+		period 713.962
+	object
+		sprite planet/vesvi
+		distance 4263
+		period 1487.781
+		object
+			sprite planet/dust5-b
+			distance 474
+			period 270.075
+	object
+		sprite planet/rock14
+		distance 6895
+		period 3060.324
+	object
+		sprite planet/gas3-b
+		distance 17272
+		period 12133.328
+	object Minmanmun
+		sprite planet/rock10
+		distance 10239.744
+		period 1970
+
 system Yli
 	pos 737.404 -492.911
 	government Uninhabited
@@ -34881,6 +37142,78 @@ system Zeinar
 		sprite planet/dust6
 		distance 6400
 		period 9934.25
+
+system Zenido
+	hidden
+	pos -1732 558
+	government "Sheragi (Jibauni)"
+	habitable 8523.497
+	belt 1519 3
+	haze _menu/haze-green
+	link Draig
+	link Taniyn
+	asteroids "small rock" 91 1.872
+	asteroids "medium rock" 90 3.24
+	asteroids "large rock" 39 2.952
+	asteroids "small metal" 10 2.16
+	asteroids "medium metal" 18 2.772
+	asteroids "large metal" 59 3.024
+	minables aluminum 3 4.003
+	minables copper 5 3.246
+	minables iron 23 3.825
+	trade Clothing 380
+	trade Electronics 799
+	trade Equipment 563
+	trade Food 301
+	trade "Heavy Metals" 857
+	trade Industrial 825
+	trade "Luxury Goods" 1032
+	trade Medical 718
+	trade Metal 441
+	trade Plastic 276
+	fleet "Small Sheragi Military" 530
+	fleet "Large Sheragi Military" 820
+	object
+		sprite star/a5
+		distance 157.483
+		period 68.707
+	object
+		sprite star/a-giant
+		distance 61.517
+		period 68.707
+		offset 180
+	object Andeslid
+		sprite planet/lava2-b
+		distance 394
+		period 33.884
+	object
+		sprite planet/ice5-b
+		distance 707
+		period 81.448
+	object
+		sprite planet/forest6-b
+		distance 1095
+		period 156.99
+	object
+		sprite planet/gas2-b
+		distance 2444
+		period 523.483
+	object
+		sprite planet/browndwarf-l
+		distance 3397
+		period 857.817
+		object
+			sprite planet/io
+			distance 288
+			period 184.752
+	object
+		sprite planet/gas8-b
+		distance 8320
+		period 3288.032
+		object
+			sprite planet/ice0
+			distance 366
+			period 264.681
 
 system "Zeta Aquilae"
 	pos -369 276

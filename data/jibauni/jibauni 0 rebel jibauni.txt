@@ -1,0 +1,166 @@
+# Copyright (c) 2024 by Loymdayddaud
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "Jibauni: Kanlanmo 0" # first contact, only thing I have in right now here
+	name "Take Kanlanmo to <planet>"
+	description "Kanlanmo, who is a Jibauni in the shape of a Tyrannosaurus rex, has asked to go to <planet> on your ship. He will explain once you get there."
+	landing
+	source Baitoon
+	destination Taltahard
+	on offer
+		conversation
+			`One of the weird aliens who appear to dwell here and who seem to be in the shape of the mythic Tyrannosaurus Rex, approaches your ship as you land. When you land and start out of your ship, grabbing your sidearm and donning armor as you go, it is standing by the hatch. "Hello, fair stranger," it says. "How may I serve you on this delightful day?"`
+			choice
+				`	"Hello. My name is <first> <last>, and I come in peace."`
+					goto lastisknown
+				`	"Hi, weirdo. What's up?"`
+					goto rude
+				`	(Shoot the alien with your sidearm.)`
+					goto deathshot
+			label lastisknown
+			`	"Yes. We know about you, <first>, Captain of the <ship>. How have you come here, for we did not detect any purple sparks?"`
+			choice
+				`	"I came through the wormhole. Do you mean to say you have not noticed it?"`
+					goto wormholeentry
+				`	"I came with a Jump Drive."`
+					to display
+						has "outfit (flagship installed): Jump Drive"
+					goto jumpdriveentry
+				`	"What do you mean, purple?"`
+					goto purple
+			label purple
+			`	"Oh, it does not matter. A side note, I believe. But, to rephrase my question, how did you enter our space?"`
+			choice
+				`	"This anomaly called a wormhole."`
+					goto wormholeentry
+				`	"Just my fancy Jump Drive."`
+					goto jumpdriveentry
+			label jumpdriveentry
+			`	"Interesting," says the alien. "The only one who has ever done that before is an odd ship who seemed to come from the same general direction." It fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+				goto pinkship
+			label rudeentry
+			`	"There is an odd ship who seemed to come the way you did," says the alien as it fixes you with an intent gaze. "There may be something similar between your species. The ship was pink. Seen one like it?"`
+				goto pinkship
+			label pinkship
+			choice
+				`	"Yes, I have, actually, called the Dominator, an Alpha ship."`
+					to display
+						has "event: liberation of Poisonwood"
+					goto knownalphas
+				`	"No, I've never seen one matching the description."`
+					goto notseen
+				`	"Of course. The person who pilots it is an Alpha. Should I tell you what the story behind them is?"`
+					to display
+						has "event: liberation of Poisonwood"
+					goto alphas
+			label knownalphas
+			`	"Great. But, let me ask you one question. Did you meet them on friendly terms? Or did you try to destroy their ships?"`
+			choice
+				`	"Why would I be friends with the ex-slavers of humanity?"`
+					goto hostilealpha
+				`	"Oh, I and the Alphas are great friends. We even share technology!"`
+					goto friendlyalpha
+			label hostilealpha
+			`	"If you need something to do, I have something. I have been looking for transport to <planet> in the <system> system, but so far no Jibauni captain has wanted to take Kanlanmo, which happens to be my name. I will explain, once we get there."`
+			choice
+				`	"Why not? There's nothing else to do."`
+					accept
+				`	"In the sake of establishing a good relationship, sure!"`
+					accept
+				`	"Of course, but unfortunately I don't have space right now. I can come back later though."`
+			`"Okay," says Kanlanmo. "Chances are, I still won't have found transport, so I will be waiting here next time you come."`
+				decline
+			label notseen
+			`	"Okay. In that case, I have another request for you. Can you take me to <planet> in the <system> system? I will mark it on your map, and explain more once we get there. Oh yes, and my name is Kanlanmo. Kanlanmo of the Jibauni."`
+			choice
+				`	"Of course! You can get on the <ship> right away!"`
+					accept
+				`	"I'm sorry, I can't take you now. Later maybe though."`
+					decline
+			label wormholeentry
+			`	"Oh, we have seen it," says the alien. "But it does not let our ships though. The reason for this is unclear. but to matters of more importance. We have seen an alien ship in pink markings pass through. Have you seen it, or one like it?"`
+				goto pinkship
+			label alphas
+			`	You begin the story, telling everything you know about how the Alphas tried to enslave human space.`
+			`	At the end, he says, "Wow. That is a long story. And I take it you are not on their side?"`
+			choice
+				`	"No, of course not."`
+					goto alphasoffer
+				`	"Yes, I have been friendly with them for years."`
+					goto friendlyalpha
+			label alphasoffer
+			`	"Good. Well, that just leaves one more matter to be wrapped up. Can you take me to <planet> in the <system> system? Kanlanmo of the Jibauni will be grateful."`
+			choice
+				`	"Of course!"`
+					accept
+				`	"Why?"`
+					goto whychoice
+				`	"Not yet, I have something I need to do first. But I'll be back shortly!"`
+					decline
+			label rude
+			`	The alien announces, though to what you cannot see, "The stranger has been ignominiously impolite." It turns to you. "What do you say, 'weirdo'? Will you apologize? Or not, and see what happens?"`
+			choice
+				`	"I apologize, and did not mean to insult you."`
+					goto rudeentry
+				`	"Why apologize to a bunch of dinky T-Rex's?"`
+					goto deathexplode
+			label deathexplode
+			`	A cluster of anti-ship weaponry is fired from all sides, immediately exploding the <ship> and everything inside it. It is sad your life had to end in such a way.`
+				die
+			label deathshot
+			`	You pull your sidearm from its holster, but before you can fire it, the anti-ship weaponry of this planet trains fire on your ship. Caught in crossfire, the <ship> immediately explodes, blowing you and everything in it sky high.`
+				die
+			label friendlyalpha
+			action
+				"reputation: Jibauni" = -1000
+				"reputation: Jibauni (Civilian)" = -1000
+				"reputation: Jibauni (Fueler)" = -1000
+				"reputation: Jibauni (Rebel)" = -1000
+			`	"Really? In that case, we must ask you to leave our planet immediately and never come back. Goodbye, and don't let us see your face ever again!"`
+				flee
+			label whychoice
+			action
+				set "jibauni: first contact: why"
+			`	"Because I have some business to transact, something about the Rebel Jibauni."`
+			choice
+				`	"What are the Rebel Jibauni?"`
+					goto rebeljibauni
+				`	"Sounds good. I'll take you."`
+					accept
+				`	"No. If it has to do with another faction, I can't."`
+					decline
+			label rebeljibauni
+			`	"They are, as the name might suggest, Jibauni who have split away from the real government. They are not very polite, and you definitely do not want to be on their side."`
+			choice
+				`	"That's what you think. Well, I'm joining the Rebels, whatever you may say."`
+					goto joinedrebels
+				`	"Okay. I'll take you."`
+					accept
+				`	"No, I won't take you. Sorry."`
+					decline
+			label joinedrebels
+			action
+				"reputation: Jibauni" = -10
+				"reputation: Jibauni (Civilian)" = -10
+				"reputation: Jibauni (Rebel)" = 10
+				set "jibauni: joined the rebels"
+			`	"Very well. Goodbye, and never land here again until you have made reparations."`
+				flee
+	on complete
+		payment 15000
+		conversation
+			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. I may have more work for you in a while, so keep checking the spaceport in our space. In addition, here is a translator device so that you can talk to the populace."`
+			choice
+				`	"Thank you."`
+				`	"Any time."`
+			`	"Well, see you later, <first>!" Kanlanmo walks away and leaves you to do whatever you want."`

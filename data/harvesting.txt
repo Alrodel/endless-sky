@@ -417,3 +417,18 @@ minable "unknown"
 	explode "bolide" 20
 	explode "blood" 10
 	explode "final explosion medium"
+
+
+# for Jibauni systems, maybe
+
+minable "Local Map"
+	"display name" "Unknown Asteroid"
+	noun "Unknown Asteroid"
+	sprite "asteroid/iron/spin"
+	hull 90
+	"random hull" 60
+	payload "Local Map" 1
+		"drop rate" 1
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "asteroid crunch large"
