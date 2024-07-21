@@ -168,7 +168,7 @@ mission "Jibauni Culture: Rude Rebel"
 		government "Jibauni (Rebel)"
 	to offer
 		has "language: Jibauni"
-		#random < 1
+		random < 1
 	on offer
 		conversation
 			`The part of the spaceport you are currently in is quite interesting, but also seems to be a slum. There are many armed Rebels standing around, and it feels rather strange seeing guns all over the place.`
