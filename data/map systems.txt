@@ -29,6 +29,10 @@ galaxy "label deep"
 	pos -658 -300
 	sprite label/deep
 
+galaxy "label diba"
+	pos -1430 630
+	sprite label/diba
+
 galaxy "label dirt belt"
 	pos -515 260
 	sprite "label/dirt belt"
@@ -45,6 +49,9 @@ galaxy "label graveyard"
 
 galaxy "label hai"
 	pos -74 -497
+
+galaxy "label jibauni"
+	pos -1350 700
 
 galaxy "label incipias"
 	pos 300 -870
@@ -69,6 +76,9 @@ galaxy "label rim"
 
 galaxy "label saryds"
 	pos -1080 678
+
+galaxy "label sheragi"
+	pos -1550 950
 
 galaxy "label south"
 	pos -566 501
