@@ -11406,7 +11406,7 @@ system Draig
 		sprite planet/station8
 		distance 8902
 		period 13438.518
-=======
+
 system Dom'us
 	pos 180.716 -760.552
 	government Hicemus
@@ -18140,7 +18140,7 @@ system Huyya
 		sprite planet/oberon
 		distance 3332
 		period 1655.353
-=======
+
 system Ianua
 	pos 371.917 -995.75
 	arrival 500
@@ -30449,7 +30449,7 @@ system Rong
 			sprite planet/rock0-b
 			distance 287
 			period 183.791
-=======
+
 system Rota
 	pos 193.25 -1029.75
 	attributes "bright star" "notable star"

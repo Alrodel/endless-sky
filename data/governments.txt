@@ -1776,7 +1776,7 @@ government "Sheragi (Pirate)"
 		"Jibauni (Rebel)" -0.1
 	"bribe" 0.05 # unworthy
 	# have no hails for them, as of right now
-=======
+
 government "Silent Ones"
 	"display name" "Indigenous Lifeform"
 	swizzle 0
