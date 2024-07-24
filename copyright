@@ -2392,6 +2392,26 @@ Copyright: Petersupes (https://github.com/Petersupes)
 License: CC-BY-SA-4.0
 
 Files:
+ images/planet/wormhole-green*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
+
+Files:
+ images/ship/ithquaya?one*
+ images/thumbnail/ithquaya?one*
+ sounds/jibauni?anti-missile*
+ sounds/jibauni?medium?laser*
+ sounds/jibauni?mining?laser*
+ sounds/jibauni?small?laser*
+ sounds/rukjay?missile*
+ sounds/ruksay?missile*
+ sounds/zarhal?turret*
+ sounds/zarwal?turret*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+
+Files:
  images/effect/pwave?impact*
  images/effect/ionball?ring*
  images/effect/ion?explosion*
