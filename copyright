@@ -2354,6 +2354,64 @@ Copyright: @Karirawri (crim@live.no)
 License: CC-BY-SA-4.0
 
 Files:
+ images/hardpoint/pulsebeamturrethp*
+ images/icon/kinetic?spear*
+ images/icon/sheragibeam*
+ images/outfit/fissioncore*
+ images/outfit/fusion?afterburner*
+ images/outfit/fusion?power?converter*
+ images/outfit/fusioncore*
+ images/outfit/kinetic?spear?launcher*
+ images/outfit/kinetic?spear?rack*
+ images/outfit/kinetic?spear*
+ images/outfit/large?fission?drive*
+ images/outfit/medium?embattery*
+ images/outfit/medium?sheragi?cooling*
+ images/outfit/pulsebeam?turret*
+ images/outfit/pulsebeam*
+ images/outfit/pwave?cannon*
+ images/outfit/sheragi?capital*
+ images/outfit/sheragi?license*
+ images/outfit/small?fusion?drive*
+ images/outfit/solar?intake*
+ images/projectile/kinetic?spear*
+ images/projectile/pulsebeam*
+ images/ship/bronzeedge*
+ images/ship/goldshield*
+ images/ship/llama*
+ images/ship/platinumspear*
+ images/ship/rubyhammer*
+ images/ship/whitebrand*
+ images/thumbnail/bronzeedge*
+ images/thumbnail/goldshield*
+ images/thumbnail/llama*
+ images/thumbnail/platinumspear*
+ images/thumbnail/rubyhammer*
+ images/thumbnail/whitebrand*
+Copyright: Petersupes (https://github.com/Petersupes)
+License: CC-BY-SA-4.0
+
+Files:
+ images/planet/wormhole-green*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
+
+Files:
+ images/ship/ithquaya?one*
+ images/thumbnail/ithquaya?one*
+ sounds/jibauni?anti-missile*
+ sounds/jibauni?medium?laser*
+ sounds/jibauni?mining?laser*
+ sounds/jibauni?small?laser*
+ sounds/rukjay?missile*
+ sounds/ruksay?missile*
+ sounds/zarhal?turret*
+ sounds/zarwal?turret*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+
+Files:
  images/effect/pwave?impact*
  images/effect/ionball?ring*
  images/effect/ion?explosion*
