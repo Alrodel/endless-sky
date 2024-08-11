@@ -29428,22 +29428,14 @@ system Quinlo
 		sprite planet/cloud2
 		distance 839
 		period 160.9
-	object
-		sprite planet/jupiter
+	object Owiay
+		sprite planet/water0
 		distance 1725
 		period 474.348
 		object
 			sprite planet/oberon-b
 			distance 252
 			period 246.374
-		object
-			sprite planet/rock17
-			distance 370
-			period 438.326
-		object
-			sprite planet/rock20
-			distance 517
-			period 444.362
 	object
 		sprite planet/gas10-b
 		distance 2635
