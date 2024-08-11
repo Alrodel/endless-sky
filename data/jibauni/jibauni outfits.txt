@@ -20,7 +20,6 @@ outfit "Jamum Shield Generator"
 	"outfit space" -20
 	"shield generation" 1
 	"shield energy" 5
-#	"shields" 100
 	"shield fuel" .1
 	"shield heat" -4
 	"fuel capacity" 20
@@ -34,12 +33,8 @@ outfit "Tamum Shield Generator"
 	"outfit space" -50
 	"shield generation" 5
 	"shield energy" 25
-#	"shields" 500
 	"shield fuel" .5
 	"shield heat" -20
-#	"hull repair rate" 10
-#	"repair delay" 50
-#	"maintenance cost" 30
 	"fuel capacity" 110
 
 
@@ -72,10 +67,6 @@ outfit "Eimlaq Engines"
 	"turning energy" 5
 	"turning heat" 12
 	"turning fuel" 1.25
-#	"reverse thruster slot" -1
-#	"steering slot" -1
-#	"thruster slot" -1
-#	"afterburner slot" 1
 	"slowing resistance" .1
 	"slowing resistance fuel" .1
 	"steering flare sprite" "effect/atomic flare/large"
@@ -104,10 +95,6 @@ outfit "Wasita Engines"
 	"turning energy" 1
 	"turning heat" 4
 	"turning fuel" .6
-#	"reverse thruster slot" -1
-#	"steering slot" -1
-#	"thruster slot" -1
-#	"afterburner slot" 1
 	"slowing resistance" .05
 	"slowing resistance fuel" .05
 	"steering flare sprite" "effect/atomic flare/tiny"
@@ -136,10 +123,6 @@ outfit "Alhaja Engines"
 	"turning energy" 1
 	"turning heat" .7
 	"turning fuel" .2
-#	"reverse thruster slot" -1
-#	"steering slot" -1
-#	"thruster slot" -1
-#	"afterburner slot" 1
 	"slowing resistance" .01
 	"slowing resistance fuel" .01
 	"steering flare sprite" "effect/atomic flare/tiny"
@@ -172,9 +155,7 @@ outfit "Jibauni Small Laser"
 		"shield damage" 1
 		"hull damage" .5
 		"parallel"
-	description "A small Jibauni laser, this is mostly found on the ships that cannot support more heavy ordnance."
-# but it also has the ability to stay in space for a while, creating booby traps."
-
+	description "A small Jibauni laser, this is mostly found on the Jibauni ships that cannot support more heavy ordnance."
 
 outfit "Jibauni Medium Laser"
 	category "Guns"
@@ -207,98 +188,6 @@ outfit "Small Map" # Tiny Map?
 	"unplunderable" 1
 	description "This data chip contains complete information on the three star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
-outfit "Fuel-Leak 10"
-	category "Turrets"
-	cost 15000
-	"mass" 8
-	"turret mounts" -1
-	"fuel damage" 20
-	"outfit space" -8
-	"weapon capacity" -8
-
-outfit "Fuel-Leak 25"
-	category "Turrets"
-	cost 30000
-	"mass" 20
-	"turret mounts" -1
-	"fuel damage" 50
-	"outfit space" -20
-	"weapon capacity" -20
-
-outfit "Fuel-Leak 50"
-	category "Turrets"
-	cost 55000
-	"mass" 45
-	"turret mounts" -1
-	"fuel damage" 100
-	"outfit space" -45
-	"weapon capacity" -45
-	"fuel mount" -1
-	"firing slowing" 1
-	licenses
-		"Jibauni Rebel Fighter"
-
-outfit "Fuel-Leak 100"
-	category "Turrets"
-	cost 110000
-	"mass" 70
-	"turret mounts" -1
-	"fuel damage" 200
-	"outfit space" -70
-	"weapon capacity" -70
-	"required crew" 2
-	"fuel mount" -1
-	"firing slowing" 4
-	licenses
-		"Jibauni Rebel Fighter"
-
-outfit "Fuel-Leak All"
-	category "Guns"
-	cost 990000
-	"mass" 130
-	"gun ports" -1
-	"fuel damage" 200000000
-	"outfit space" -130
-	"weapon capacity" -130
-	"required crew" 5
-	"fuel mount" -1
-	"firing slowing" 10
-	licenses
-		"Jibauni Rebel Fighter"
-		"Jibauni Government Helper"
-		"Jibauni"
-	"unplunderable" 1
-
-outfit "Fueler 10"
-	category "Turrets"
-	cost 10000
-	"mass" 10
-	"turret mounts" -1
-	"fuel damage" -20
-	"firing fuel" 10
-	"outfit space" -10
-	"weapon capacity" -10
-	licenses
-		"Jibauni"
-
-outfit "Fueler 100"
-	category "Turrets"
-	cost 100000
-	"mass" 75
-	"turret mounts" -1
-	"fuel mounts" -1
-	"fuel damage" -200
-	"outfit space" -75
-	"weapon capacity" -75
-	"heat damage" -100
-	"energy damage" -500
-	"required crew" 1
-	"firing fuel" 100
-	"fuel mount" -1
-	licenses
-		"Jibauni Rebel Fighter"
-		"Jibauni"
-
 outfit "Scythe"
 	category "Hand to Hand"
 	cost 12000
@@ -321,11 +210,12 @@ outfit "Jibauni Anti-Missile"
 		"hardpoint sprite" "hardpoint/hai anti-missile"
 		"velocity" 155
 		"lifetime" 1
-		"anti-missile" 4
+		"anti-missile" 1
 		"firing energy" 6
 		"firing fuel" 0.05
 		"reload" 5
 		"firing heat" 2
+	description "This is the Jibauni take on an anti-missile. It fires quite fast, but is not that powerful."
 
 outfit "Ruksay Missile"
 	cost 525
@@ -371,7 +261,7 @@ outfit "Ruksay Missile Launcher"
 		"hull damage" 150
 		"hit force" 170
 		"missile strength" 6
-	description "The missiles this launches are not as good at tracking and don't do splash damage the way the Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the less powerful defenses."
+	description "The missiles this launcher uses are not as good at tracking and don't do splash damage the way the Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the less powerful defenses."
 
 outfit "Rukjay Missile"
 	cost 875
@@ -577,7 +467,6 @@ outfit "Jibauni Mining Laser"
 		"reload" 1
 		"hull damage" .0167
 		"shield damage" .01
-#		"mixable damage" 3
 		"prospecting" 1.1
 		"minable damage" 3
 		"slowing damage" .01
