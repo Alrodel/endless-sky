@@ -158,6 +158,8 @@ mission "Jibauni: Kanlanmo 0" # first contact, only thing I have in right now he
 				flee
 	on complete
 		payment 15000
+		set "language: Jibauni"
+		event "jibauni translated hails"
 		conversation
 			`	"Thank you for bringing me here so promptly," says Kanlanmo. "It was very kind of you. I may have more work for you in a while, so keep checking the spaceport in our space. In addition, here is a translator device so that you can talk to the populace."`
 			choice
