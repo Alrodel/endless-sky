@@ -31374,7 +31374,7 @@ system Sarin
 system Sarkan
 	hidden
 	pos -1582 753
-	government Uninhabited
+	government "Sheragi (Jibauni)"
 	habitable 2560
 	belt 1475 3
 	link Chinjoka
