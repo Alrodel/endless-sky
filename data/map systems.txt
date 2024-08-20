@@ -8563,7 +8563,7 @@ system Chinjoka
 	minables titanium 2 2.542
 	fleet "Small Sheragi Military" 1300
 	fleet "Large Sheragi Military" 2000
-	hazard "Sheragi Ion" 500
+	hazard "Sheragi Ion" 450
 	object
 		sprite star/g-supergiant
 		distance 480
@@ -31388,9 +31388,18 @@ system Sarkan
 	minables gold 1 5.578
 	minables iron 2 8.06
 	minables copper 10 5.659
+	trade Clothing 190
+	trade Electronics 820
+	trade Equipment 452
+	trade Food 314
+	trade "Heavy Metals" 735
+	trade Industrial 790
+	trade "Luxury Goods" 1121
+	trade Medical 824
+	trade Metal 501
+	trade Plastic 367
 	fleet "Small Sheragi Military" 815
 	fleet "Large Sheragi Military" 1375
-	hazard "Sheragi Ion" 500
 	object
 		sprite star/f0
 		period 10
@@ -34526,7 +34535,7 @@ system Taniyn
 	minables neodymium 63 6.776
 	fleet "Small Sheragi Military" 1100
 	fleet "Large Sheragi Military" 1500
-	hazard "Sheragi Ion" 500
+	hazard "Sheragi Ion" 525
 	object
 		sprite star/f-supergiant
 		period 10
