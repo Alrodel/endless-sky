@@ -168,7 +168,7 @@ planet Amazon
 
 planet Andeslid
 	attributes lava sheragi
-	landscape land/lava14
+	landscape land/mountain32
 	description `The volcanic activity of Andeslid creates an abundance of raw metal deposits close to the surface, and a booming mining industry has grown here. All across the planet incredibly hazardous mines are hard at work fueling the intense material need of the Sheragi.`
 	spaceport `The spaceport here is the only safe thing on the whole planet, strong enough to hold up against the intense strain of the freighters coming and going. It is also mostly heatproof, allowing for lava to erupt freely all around without causing problems.`
 	government "Sheragi (Jibauni)"
@@ -184,9 +184,9 @@ planet Andwerfen
 
 planet Andwesher
 	attributes "rebel sheragi" sheragi
-	landscape land/water5
-	description `This is a quiet planet, with not much around. It is also mostly water, with only a bit of land on it.`
-	spaceport `The few ships here are all Hammers, freighters with not much to recommend them. Some of those could fit your ship whole, and you are thankful that they are not too angry with you.`
+	landscape land/mountain33
+	description `Needs to be redone.`
+	spaceport `Needs to be redone.`
 	government "Sheragi (Pirate)"
 
 planet Angko
@@ -2210,7 +2210,7 @@ planet Hestia
 
 planet Hinserdan
 	attributes sheragi
-	landscape land/sky1
+	landscape land/sky12
 	description `Almost completely uninhabited, this planet is hardly useful at all.`
 	port "Spaceport"
 		description `The spaceport does not give fuel or make repairs.`
@@ -2396,7 +2396,7 @@ planet Ingot
 planet Inhelk
 	attributes sheragi
 	landscape land/desert6
-	description `Inhelk is much safer than the planet it orbits, but with large amounts of work being available and massive factories making use of materials shipped from all over Sheragi space to create all manner of goods, this is one of the Sheragi industrial giants.`
+	description `Inhelk is not as safe as many other planets, but with large amounts of work being available and massive factories making use of materials shipped from all over Sheragi space to create all manner of goods, this is one of the Sheragi industrial giants.`
 	spaceport `The spaceport borders a massive shipyard producing the equally sized Sheragi ships. Other than stare at the ships get made, there isn't much else to do besides watch the many spacecraft taking off and landing all the time.`
 	outfitter "Sheragi Basics"
 	outfitter "Sheragi Advanced"
@@ -5589,7 +5589,7 @@ planet Zigzogzinzo
 
 planet Zintolin
 	attributes "rebel sheragi" sheragi
-	landscape land/haze1
+	landscape land/myrabella9
 	description `This is the Pirate Capital, a huge planet with mountains and forests in all places. None of the Sheragi here have any resemblance to being trustful of your nature.`
 	spaceport `As the Pirate Capital, there are numerous large ships here with all manners of outfits and captains. Unfortunately, none of them like you, and doing business is rather difficult.`
 	spaceport `Each time you get back to your ship alive, you are quite thankful.`
