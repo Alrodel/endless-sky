@@ -30347,8 +30347,9 @@ system Rilal
 		distance 2407
 		period 14937.37
 		object Sio
-			sprite planet/ice0-b
-			distance 219
+			sprite planet/ice5-b
+				scale 0.3
+			distance 190
 			period 122.509
 
 system Ritilas
