@@ -30346,7 +30346,7 @@ system Rilal
 		sprite planet/gas16
 		distance 2407
 		period 14937.37
-		object
+		object Sio
 			sprite planet/ice0-b
 			distance 219
 			period 122.509
