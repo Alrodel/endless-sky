@@ -35,7 +35,7 @@ mission "Jibauni Pilgrims [0]"
 		payment 1250
 		"Jibauni government" ++
 		"pilgrim help" ++
-		dialog "The <bunks> pilgrims get off the ship, but not before one of them hands you <payment>."
+		dialog "The <bunks> pilgrims get off the <ship>, but not before one of them hands you <payment>."
 	on fail
 		"pilgrim help" --
 		"left pilgrims" ++
