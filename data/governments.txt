@@ -959,19 +959,6 @@ government "Jibauni (Civilian)"
 	"hostile hail" "jibauni untranslated"
 	"hostile disabled hail" "jibauni untranslated"
 
-government "Jibauni (Fueler)" # not currently used
-	color 0.196 0.392 0.118
-	"display name" "Jibauni"
-	"player reputation" -1000
-	"crew attack" 0.01
-	"crew defense" 400
-	"attitude toward"
-		Jibauni -0.01
-		"Jibauni (Rebel)" -0.01
-		"Sheragi (Jibauni)" 0.01
-		"Diba" 0.01
-	"bribe" 10000
-
 government "Jibauni (Rebel)"
 	swizzle 18
 	color 0 0.196 0.196
