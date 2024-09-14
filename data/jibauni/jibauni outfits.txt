@@ -30,8 +30,8 @@ outfit "Jamum Shield Generator"
 	cost 40000
 	"mass" 24
 	"outfit space" -20
-	"shield generation" 1
-	"shield energy" 5
+	"shield generation" 0.25
+	"shield energy" 1.25
 	"shield fuel" .1
 	"shield heat" -4
 	"fuel capacity" 20
@@ -43,8 +43,8 @@ outfit "Tamum Shield Generator"
 	cost 125000
 	"mass" 48
 	"outfit space" -50
-	"shield generation" 5
-	"shield energy" 25
+	"shield generation" 1.25
+	"shield energy" 6.25
 	"shield fuel" .5
 	"shield heat" -20
 	"fuel capacity" 110
@@ -144,6 +144,7 @@ outfit "Alhaja Engines"
 		"frame rate" 10
 	"flare sound" "alhaja engines"
 
+
 outfit "Jibauni Small Laser"
 	category "Guns"
 	cost 50000
@@ -167,7 +168,7 @@ outfit "Jibauni Small Laser"
 		"shield damage" 1
 		"hull damage" .5
 		"parallel"
-	description "A small Jibauni laser, this is mostly found on the Jibauni ships that cannot support more heavy ordnance."
+	description "A small Jibauni laser, this is mostly found on the ships that cannot support more heavy ordnance."
 
 outfit "Jibauni Medium Laser"
 	category "Guns"
@@ -185,12 +186,13 @@ outfit "Jibauni Medium Laser"
 		"lifetime" 1
 		"firing heat" 1
 		"inaccuracy" 2
-		"firing energy" 0.5
+		"firing energy" 0.55
 		"firing fuel" 0.12
 		"shield damage" 1.93
 		"hull damage" 1.325
 		"reload" 1
 	description "This is a semi-powerful laser that is mostly used on the large Jibauni ships. Although it cannot stay in one place for more than a second, it still does enough damage to be worth it."
+
 
 outfit "Small Map" # Tiny Map?
 	category "Special"
@@ -200,6 +202,7 @@ outfit "Small Map" # Tiny Map?
 	"unplunderable" 1
 	description "This data chip contains complete information on the three star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 
+
 outfit "Scythe"
 	category "Hand to Hand"
 	cost 12000
@@ -208,6 +211,7 @@ outfit "Scythe"
 	"capture defense" 0.5
 	"unplunderable" 1
 	"description" "While not that useful for hiding behind bulkheads to defend, it is very good in close attack fighting."
+
 
 outfit "Jibauni Anti-Missile"
 	cost 75000
@@ -273,7 +277,7 @@ outfit "Ruksay Missile Launcher"
 		"hull damage" 150
 		"hit force" 170
 		"missile strength" 6
-	description "The missiles this launcher uses are not as good at tracking and don't do splash damage the way the Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the less powerful defenses."
+	description "The missiles this launches are not as good at tracking and don't do splash damage the way the Rukjay missiles do, but some captains regard the nonexistence of heat creation as worth it for the less powerful defenses."
 
 outfit "Rukjay Missile"
 	cost 875
@@ -285,7 +289,6 @@ outfit "Rukjay Missile"
 	"energy consumption" .001
 	"heat generation" .001
 	description "The Rukjay Missile is ammunition for the Rukjay Missile launcher. You cannot install one unless you have first installed a launcher to fire it from. Each launcher holds up to 45 Rukjays."
-
 
 outfit "Rukjay Missile Launcher"
 	category "Secondary Weapons"
@@ -373,6 +376,14 @@ outfit "flaklauncher"
 		"hit force" 3
 		"hit effect" "bullet impact"
 
+effect "flak impact"
+	sprite "effect/bullet impact"
+		"no repeat"
+		"frame rate" 60
+	"lifetime" 8
+	"random angle" 40
+	"velocity scale" -.05
+
 outfit "Zarhal Laser Turret"
 	category "Turrets"
 	cost 350000
@@ -423,6 +434,7 @@ outfit "Zarwal Laser Turret"
 		"phasing"
 	description "While not doing as much raw damage as the Zarhal Turret, Jibauni captains use this in great numbers because the beams it shoots have the ability to go though any ship except for their target, meaning a Jibauni captain whose ship is equipped with these can focus on any opponent they please without being hindered by other ships getting in the way."
 
+
 outfit "Jahgir Energy Generator"
 	cost 40000
 	category "Power"
@@ -442,7 +454,7 @@ outfit "Watsaq Energy Generator"
 	"energy generation" 3
 	"heat generation" 1.75
 	"mass" 20
-	"fuel generation" .1
+	"fuel generation" .2
 	"ramscoop" .15
 	"jibauni generator" -1
 
@@ -454,7 +466,7 @@ outfit "Tawasitaq Energy Generator"
 	"energy generation" 5
 	"heat generation" 1.9
 	"mass" 35
-	"fuel generation" .3
+	"fuel generation" .6
 	"ramscoop" .15
 	"jibauni generator" -2
 
@@ -466,9 +478,10 @@ outfit "Daltaq Energy Generator"
 	"energy generation" 13.8
 	"heat generation" 13.3
 	"mass" 90
-	"fuel generation" 1
+	"fuel generation" 2
 	"ramscoop" .15
 	"jibauni generator" -4
+
 
 outfit "Ridtab Cooling"
 	cost 55000
@@ -477,6 +490,7 @@ outfit "Ridtab Cooling"
 	"outfit space" -19
 	"mass" 10
 	"cooling" 16
+
 
 outfit "Saybatrit Battery"
 	cost 7000
@@ -494,12 +508,14 @@ outfit "Farbatal Battery"
 	"energy capacity" 32000
 	"mass" 65
 
+
 outfit "Jibauni Radar Jammer"
 	cost 140000
 	category "Systems"
 	"mass" 15
 	"outfit space" -14
 	"radar jamming" 7
+
 
 outfit "Jibauni Mining Laser"
 	cost 200000
@@ -524,6 +540,7 @@ outfit "Jibauni Mining Laser"
 		"minable damage" 3
 		"slowing damage" .01
 
+
 outfit "Tiny Bunk Room"
 	category "Systems"
 	cost 15000
@@ -543,6 +560,7 @@ outfit "Large Bunk Room"
 	"outfit space" -36
 	"unplunderable" 1
 	description "If you really want to make space for another eight passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
+
 
 outfit "Jibauni Government Helper License"
 	category "Licenses"
@@ -574,6 +592,7 @@ outfit "Rebel Jibauni Capital License"
 	thumbnail "outfit/militia license"
 	"unplunderable" 1
 	description "Placeholder."
+
 
 outfit "Jibauni Fuel Pod"
 	category "Systems"

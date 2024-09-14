@@ -249,8 +249,8 @@ ship "Duntay"
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 ship "Yankul"
-	sprite "ship/shuttle"
-	thumbnail "thumbnail/shuttle"
+	sprite "ship/yankul"
+	thumbnail "thumbnail/yankul"
 	attributes
 		category "Transport"
 		"cost" 650000
