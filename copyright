@@ -2405,12 +2405,12 @@ License: CC-BY-SA-4.0
 Files:
  images/land/mountain32*
 Copyright: dominickvietor (https://pixabay.com/users/dominickvietor-6362547/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/water21*
 Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/mountain33*
@@ -2461,23 +2461,23 @@ Files:
  images/land/water22*
  images/land/mars5*
 Copyright: ryannoeker (https://pixabay.com/users/ryannoeker-41074070/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/mountain31*
 Copyright: shirinh (https://pixabay.com/users/shirinh-1577782/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/beach16*
  images/land/myrabella9*
 Copyright: Wolfgang-1958 (https://pixabay.com/users/wolfgang-1958-32693390/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/lava18*
 Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/land/fields28*
@@ -2487,7 +2487,7 @@ License: CC0
 Files:
  images/land/snow24*
 Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/ship/ithquaya?one*
@@ -2557,7 +2557,7 @@ Files:
  images/land/clouds_09
  images/land/sky12*
 Copyright: ELG21 (https://pixabay.com/users/elg21-3764790/)
-License: Pixabay
+# License: Pixabay
 
 Files:
  images/outfit/ka'het?maeri?engine*
