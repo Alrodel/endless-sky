@@ -562,7 +562,7 @@ outfit "Large Bunk Room"
 	description "If you really want to make space for another eight passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
 
 
-outfit "Jibauni Government Helper License"
+outfit "Jibauni Government License"
 	category "Licenses"
 	thumbnail "outfit/city-ship license"
 	"Jibauni" 1
