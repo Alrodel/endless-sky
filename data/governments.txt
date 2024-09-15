@@ -977,10 +977,10 @@ government "Jibauni (Rebel)"
 		capture 1
 		destroy 1000
 	"bribe" 0.07 # not worthy
-	"friendly hail" "friendly jibauni military"
-	"friendly disabled hail" "friendly disabled jibauni military"
-	"hostile hail" "hostile jibauni military"
-	"hostile disabled hail" "hostile disabled jibauni military"
+	"friendly hail" "jibauni untranslated"
+	"friendly disabled hail" "jibauni untranslated"
+	"hostile hail" "jibauni untranslated"
+	"hostile disabled hail" "jibauni untranslated"
 
 government "Jibauni (Ruler)"
 	color "governments: Jibauni"
