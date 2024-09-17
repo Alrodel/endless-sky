@@ -249,6 +249,7 @@ ship "Duntay"
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 ship "Yankul"
+	swizzle 0
 	sprite "ship/yankul"
 	thumbnail "thumbnail/yankul"
 	attributes
@@ -258,8 +259,8 @@ ship "Yankul"
 		"hull" 500
 		"required crew" 1
 		"bunks" 7
-		"mass" 79
-		"drag" 1.53
+		"mass" 65
+		"drag" 0.79
 		"heat dissipation" .34
 		"fuel capacity" 200
 		"cargo space" 11
@@ -268,8 +269,9 @@ ship "Yankul"
 		"engine capacity" 0
 		"jibauni generator" 0.5
 		"fuel protection" .7
-		"thrust" 1
-		"turn" 8
+		"thrust" 15
+		"turn" 75
+		"flare sprite" "effect/ion flare/tiny"
 		licenses
 			Jibauni
 		weapon
@@ -281,8 +283,8 @@ ship "Yankul"
 		"Jahgir Energy Generator"
 		"Musaghar Shield Generator"
 		"Hyperdrive"
-	engine 0 0
-	gun 0 0
+	engine 0 38.5
+	gun 0 -38
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description "The smallest ship the Jibauni possess, this ship is terrible at combat and only mediocre at cargo hauling. Its fame comes from the fact that it has many bunks for the cost, and that it can sport a weapon, though by default it does not come with one."
