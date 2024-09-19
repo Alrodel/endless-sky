@@ -1619,6 +1619,7 @@ License: GPL-2
 Comment: Created by a past contributor modified from Battle for Wesnoth (https://www.wesnoth.org/) sounds, which are copyright David White [dave@whitevine.net](mailto:dave@whitevine.net) under GPL 2 or later. Rights relinquished to Michael Zahniser.
 
 Files:
+ sounds/fissiondrive*
  sounds/kspear*
 Copyright: Optic Delusion
 License: CC-BY-SA-3.0
