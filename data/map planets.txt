@@ -183,14 +183,6 @@ planet Amazon
 		threshold 3500
 		fleet "Small Syndicate" 10
 
-planet Andeslid
-	attributes lava sheragi
-	landscape land/mountain32
-	description `The volcanic activity of Andeslid creates an abundance of raw metal deposits close to the surface, and a booming mining industry has grown here. All across the planet incredibly hazardous mines are hard at work fueling the intense material need of the Sheragi.`
-	spaceport `The spaceport here is the only safe thing on the whole planet, strong enough to hold up against the intense strain of the freighters coming and going. It is also mostly heatproof, allowing for lava to erupt freely all around without causing problems.`
-	government "Sheragi (Jibauni)"
-	"required reputation" 1
-
 planet Andwerfen
 	attributes capital jibauni "rebel jibauni" "seat of government"
 	landscape land/rocks1
@@ -198,13 +190,6 @@ planet Andwerfen
 	description `	The credit for discovering this planet goes to Wahlkin, a Jibauni who had been a peaceful planet-dweller until the Sheragi came. When the war was over, he started exploring, and subsequently started the colony of Andwerfen, which grew into the planet it is today.`
 	description `	Many Jibauni wish that Andwerfen had never been founded.`
 	spaceport `Little is here except for the many armed patrols the Rebel Jibauni keep patrolling the neighborhoods, looking for disrupters of the peace. The Jibauni around you all look frightened, and the number here that must wish to get back to normal Jibauni space must be large.`
-
-planet Andwesher
-	attributes "rebel sheragi" sheragi
-	landscape land/mountain33
-	description `Needs to be redone.`
-	spaceport `Needs to be redone.`
-	government "Sheragi (Pirate)"
 
 planet Angko
 	attributes bunrodea factory manufacturing
@@ -426,17 +411,6 @@ planet "Big Sky"
 	tribute 600
 		threshold 3000
 		fleet "Small Militia" 50
-
-planet Bilinson
-	attributes "rebel sheragi" sheragi
-	landscape land/badlands4
-	description `The life of a Pirate is hard, but the inhabitants of Bilinson have managed to eke out a living. In fact, they are doing quite well, having access to most Sheragi technology and ships.`
-	spaceport `The main facilities here are devoted to production. While the ships made here are few, outfits are in abundance and are not few.`
-	government "Sheragi (Pirate)"
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	shipyard "Sheragi Basics"
-	"required reputation" 10
 
 planet Bivrost
 	attributes deep factory mining urban
@@ -2278,19 +2252,6 @@ planet Hestia
 		threshold 8500
 		fleet "Large Republic" 18
 
-planet Hinserdan
-	attributes sheragi
-	landscape land/sky14
-	description `Almost completely uninhabited, this planet is hardly useful at all.`
-	port "Spaceport"
-		description `The spaceport does not give fuel or make repairs.`
-		recharges
-			energy
-		services
-			trading
-			"offers missions"
-	government "Sheragi (Jibauni)"
-
 planet Hippocrates
 	attributes core frontier research
 	landscape land/water11-harro
@@ -2462,26 +2423,6 @@ planet Ingot
 	tribute 200
 		threshold 1500
 		fleet "Small Militia" 15
-
-planet Inhelk
-	attributes sheragi
-	landscape land/desert6
-	description `Inhelk is not as safe as many other planets, but with large amounts of work being available and massive factories making use of materials shipped from all over Sheragi space to create all manner of goods, this is one of the Sheragi industrial giants.`
-	spaceport `The spaceport borders a massive shipyard producing the equally sized Sheragi ships. Other than stare at the ships get made, there isn't much else to do besides watch the many spacecraft taking off and landing all the time.`
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	shipyard "Sheragi Basics"
-	shipyard "Sheragi Advanced"
-
-planet Inkon
-	attributes sheragi
-	landscape land/space2
-	description `This station at the very edge of Sheragi space was created in a desperate bid to expand upon the limited amount of habitable space located in the southern part of Alrodel. Many of the residents of Inkon are elderly Sheragi who choose to live here at the very edge of their space, where they are guaranteed safety from both pirates and perhaps-treacherous allies.`
-	spaceport `The spaceport of Inkon is relatively small for the Sheragi, as the station rarely has to accommodate the large capital ships the Sheragi favor. Instead, it commonly receives transports and freighters.`
-	government "Sheragi (Jibauni)"
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	"required reputation" 1
 
 planet "Inmost Blue"
 	attributes farming kimek urban
@@ -2936,15 +2877,6 @@ planet Laqualk
 		fleet "Large Jibauni Military" 6
 		fleet "Small Jibauni Military" 20
 
-planet Leasher
-	attributes sheragi
-	landscape land/fields13
-	description `Leasher is one of the flattest worlds you've ever seen, great plains spread into the distance seemingly forever. The fertile soil here means that this planet is the primary supplier of agricultural goods in Sheragi space.`
-	spaceport `The small amount of things to do here all have to do with the immense trading this planet is involved in. Few buildings dot the site, but many sheepfolds are scattered everywhere. There are also many weird silos and grain bins.`
-	government "Sheragi (Jibauni)"
-	outfitter "Sheragi Basics"
-	"required reputation" 1
-
 planet "Lenz's Loop"
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa28
@@ -2993,15 +2925,6 @@ planet Limejog
 	government Uninhabited
 	bribe 0
 	security 0
-
-planet Linkson
-	attributes sheragi
-	landscape land/forest4
-	description `Linkson is full of towering mountain ranges, divided by sprawling green valleys, many converted into farmland.`
-	description `In addition, there are rumors of infiltrating Sheragi Pirates, and Jibauni outposts built to stop Sheragi trade.`
-	spaceport `Inspired by the captivating beauty of the planet, the spaceport here was made with only aesthetics in mind. As such, it is one of the nicest looking you've ever seen, a perfect hexagonal shape seamlessly encircling a gorgeous Sheragi city of glistening spires.`
-	government "Sheragi (Jibauni)"
-	"required reputation" 1
 
 planet Lodestone
 	attributes core mining volcanic
@@ -4369,16 +4292,6 @@ planet "Ring of Wisdom"
 	bribe 0
 	security 0.8
 
-planet Rinson
-	attributes "rebel sheragi" sheragi
-	landscape land/asteroid0
-	attributes "requires: shpi"
-	description `This base seems to be the main capital of all of the Pirate doings. Vast areas are dedicated to living areas, and even more to the advanced disguises this place must be famed for.`
-	spaceport `Here, there is no lack of huge bays for capital ships. In fact, nothing at all has not got a dedicated hangar or refueling tube.`
-	government "Sheragi (Pirate)"
-	outfitter "Sheragi Basics"
-	"required reputation" 5
-
 planet "Rowark's Roost"
 	attributes moon uninhabited
 	landscape land/moon1
@@ -4695,27 +4608,6 @@ planet Shangri-La
 	tribute 1200
 		threshold 4000
 		fleet "Large Syndicate" 7
-
-planet Shenal
-	attributes sheragi
-	landscape land/forest3
-	description `On Shenal, cities sprawl across the globe, ever increasing to accommodate for the growing Sheragi population. This planet is the most densely populated in the entirety of Sheragi Alrodel, even more so than the capital system.`
-	description `	This also is where the main Sheragi government buildings and homes are.`
-	spaceport `The spaceport here is fairly standard for the Sheragi, with large hexagonal landing pads and transports hurrying about, ferrying people to and fro between the spaceport and surrounding city.`
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	shipyard "Sheragi Basics"
-
-# planet Shenal # not sure why there are two
-#	landscape land/sky11
-#	description `This planet is home to millions of Sheragi, many of which live here because Shenal is the headquarters of the Sheragi military. The world is perfectly positioned to prevent any unwanted ships from entering the part of Alrodel controlled by the Sheragi.`
-#	spaceport `The spaceport here is one of the largest you've ever seen, seemingly built to hold the massive capital ships of the Sheragi military.`
-#	shipyard "Sheragi Basics"
-#	shipyard "Sheragi Advanced"
-#	outfitter "Sheragi Basics"
-#	outfitter "Sheragi Advanced"
-#	government "Sheragi (Jibauni)"
-#	"required reputation" 1
 
 planet Shassa-Wyra-Orrou
 	attributes mining quiet successor tourism
@@ -6017,16 +5909,6 @@ planet Xerolophos
 	government Uninhabited
 	security 0
 
-planet Xicalins
-	attributes sheragi
-	landscape land/valley16
-	description `Xicalins is one huge and mountainous testing area, with the majority of all research and development in Sheragi space carried out right here. The marks of this extensive technology can be seen all over the planet, and as you come in low you see a mountain range that has had its top taken clean off, leaving you only to wonder what kind of weapon could have done such a thing.`
-	spaceport `The spaceport is located just outside of a university, students and scientists alike streaming in and out of its entry. There are also weapons bins scattered in many places, and a large collection of some type of documents.`
-	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
-	outfitter "Sheragi Basics"
-	"required reputation" 1
-
 planet Xurelei
 	attributes "gas giant" "requires: gaslining" uninhabited
 	landscape land/nasa15
@@ -6093,31 +5975,6 @@ planet Zenith
 	tribute 400
 		threshold 2500
 		fleet "Small Northern Pirates" 13
-
-planet Zigzogzinzo
-	attributes sheragi
-	landscape land/mountain31
-	description `Zigzogzinzo is the primary economic center of Sheragi space, all trading and business runs through the cloud cities here, in one way or another. The vast wealth that flows through this planet has led to it being the home of many of the wealthiest citizens. Rumor has it that near the top of the economic food chain of rich business owners is a Jibauni.`
-	spaceport `Due to the sheer amount of money on Zigzogzinzo, the floating spaceport is so fancy that you feel slightly bad for scuffing your shoes along the gleaming white floor. They also seem to have made the spaceport with a set of viewing windows for the landscape.`
-	government "Sheragi (Jibauni)"
-	shipyard "Sheragi Basics"
-	shipyard "Sheragi Advanced"
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	"required reputation" 1
-
-planet Zintolin
-	attributes "rebel sheragi" sheragi
-	landscape land/myrabella9
-	description `This is the Pirate Capital, a huge planet with mountains and forests in all places. None of the Sheragi here have any resemblance to being trustful of your nature.`
-	spaceport `As the Pirate Capital, there are numerous large ships here with all manners of outfits and captains. Unfortunately, none of them like you, and doing business is rather difficult.`
-	spaceport `Each time you get back to your ship alive, you are quite thankful.`
-	government "Sheragi (Pirate)"
-	outfitter "Sheragi Basics"
-	outfitter "Sheragi Advanced"
-	shipyard "Sheragi Basics"
-	shipyard "Sheragi Advanced"
-	"required reputation" 30
 
 planet Zug
 	attributes factory farming rim
