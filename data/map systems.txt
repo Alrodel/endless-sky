@@ -20531,11 +20531,6 @@ system Kateaza
 			sprite planet/dust3
 			distance 369
 			period 267.942
-	object "Station of Power"
-		sprite planet/sheragistation
-			scale 2
-		distance 3373.643
-		period 450
 
 system "Kaus Australis"
 	pos -284 395
