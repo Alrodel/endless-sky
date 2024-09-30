@@ -1797,6 +1797,18 @@ planet "Garden Empyreal"
 	"required reputation" 20
 	security 0.4
 
+planet "Gare Station"
+	attributes diba robot station
+	landscape land/station47
+	description `This Diba station has a steady stream of robotic ships landing and leaving. Apparently, however, they don't use it for anything.`
+	port "Robot Housing"
+		description `The robots here do not acknowledge your presence, and nothing is here to refuel you.`
+	"required reputation" 20
+	outfitter Diba
+	shipyard Diba
+	bribe 1
+	security 0.99
+
 planet Geminus
 	attributes factory military mining paradise
 	landscape land/mountain18-harro
@@ -2988,6 +3000,18 @@ planet Maelstrom
 	tribute 2700
 		threshold 5500
 		fleet "Large Republic" 11
+
+planet "Mahata Station"
+	attributes diba robot station
+	landscape land/station50
+	description `This is another Diba station, though here they seem to produce nothing.`
+	port "Robot Housing"
+		description `The robots here do not acknowledge your presence, and nothing is here to refuel you. There is one small fortified room that could be meant for a human, and nothing else, besides huge containers of something you can only guess at.`
+	"required reputation" 20
+	outfitter Diba
+	shipyard Diba
+	bribe 1
+	security 0.99
 
 planet Mahoganybox
 	attributes hai retirement station
