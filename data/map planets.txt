@@ -1800,9 +1800,7 @@ planet "Garden Empyreal"
 planet "Gare Station"
 	attributes diba robot station
 	landscape land/station47
-	description `This Diba station has a steady stream of robotic ships landing and leaving. Apparently, however, they don't use it for anything.`
-	port "Robot Housing"
-		description `The robots here do not acknowledge your presence, and nothing is here to refuel you.`
+	description `This Diba station has a steady stream of robotic ships docking and undocking from the long hallways. Apparently, however, they don't use it for anything.`
 	"required reputation" 20
 	outfitter Diba
 	shipyard Diba
@@ -3004,9 +3002,7 @@ planet Maelstrom
 planet "Mahata Station"
 	attributes diba robot station
 	landscape land/station50
-	description `This is another Diba station, though here they seem to produce nothing.`
-	port "Robot Housing"
-		description `The robots here do not acknowledge your presence, and nothing is here to refuel you. There is one small fortified room that could be meant for a human, and nothing else, besides huge containers of something you can only guess at.`
+	description `Clearly on Mahata Station the Diba are going for function and not style. All surfaces are covered with dust and rust, and the equivalent of chicken wire is put up instead of solid wall.`
 	"required reputation" 20
 	outfitter Diba
 	shipyard Diba
@@ -3765,6 +3761,12 @@ planet Norn
 	tribute 500
 		threshold 3000
 		fleet "Small Deep Security" 12
+
+planet Nulto
+	attributes jibauni uninhabited
+	landscape land/hills13
+	description `This planet is beautiful, with trees and grasses abundant in all areas of the mountainous region you are in. No signs of Jibauni habitation are visible, and it is unclear why they haven't settled here, though they may have decided not to spoil the planet with the smog and pollution of large cities.`
+	"required reputation" -1000
 
 planet Oasis
 	attributes farming rim textiles
