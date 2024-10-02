@@ -2867,12 +2867,8 @@ planet Landalmon
 	landscape land/dune1
 	description `This moon does not seem to be very important to the Jibauni. There appears to have been hardly any work on developing it, and the few buildings that remain are just small blobs of plastic.`
 	description `It is mostly filled with giant dunes of sand and rock.`
-	government Uninhabited
 	bribe 0
 	security 0
-	tribute 1
-		threshold 5
-		fleet "Small Jibauni Military" 1
 
 planet Laqualk
 	attributes government jibauni military "requires: Jibauni"
