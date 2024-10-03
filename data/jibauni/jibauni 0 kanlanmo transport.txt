@@ -13,7 +13,7 @@
 
 mission "Jibauni: Kanlanmo 0"
 	name "Take Kanlanmo to <planet>"
-	description "Kanlanmo, who is a Jibauni in the shape of a Tyrannosaurus rex, has asked to go to <planet> on your ship. He will explain once you get there."
+	description "Kanlanmo, a Jibauni in the shape of a Tyrannosaurus Rex, has asked to go to <planet> on your ship. He will explain more once you get there."
 	landing
 	source Baitoon
 	destination Taltahard
@@ -137,7 +137,7 @@ mission "Jibauni: Kanlanmo 0"
 				set "jibauni: first contact: why"
 			`	"Because I have some business to transact, something about the Rebel Jibauni."`
 			choice
-				`	"What are the Rebel Jibauni?"`
+				`	"Who are the Rebel Jibauni?"`
 					goto rebeljibauni
 				`	"Sounds good. I'll take you."`
 					accept
