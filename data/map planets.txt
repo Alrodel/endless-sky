@@ -3278,6 +3278,13 @@ planet Mnai
 	description `	Although this world remains an uncolonized paradise, there is some indication that the planet has been visited recently by the Gegno. A few landing sites can be found atop the taller ridges, but none are intricate enough to indicate any attempt to establish a settlement.`
 	government Uninhabited
 
+planet Monwon
+	attributes diba uninhabited
+	landscape land/fields28
+	description `An uninhabited planet, Monwon seems very interesting for its bunches of foliage. And curiously, the grass is flat, as it would be on any human world that had professional mowers.`
+	description ``
+	description `	Perhaps the Diba come here occasionally, and have used the lawn as a landing strip.`
+
 planet Moonshake
 	attributes core factory forest urban
 	landscape land/city7
