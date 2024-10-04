@@ -136,15 +136,6 @@ hazard "Jibauni Slowing"
 
 
 
-hazard "Sheragi Ion"
-	"duration" 1 100
-	"strength" 25 99
-	"system-wide"
-	weapon
-		"ion damage" 0.05
-
-
-
 hazard "Predecessors Base Spatial Decay"
 	"duration" 1 200
 	"strength" 0.25 1.75
