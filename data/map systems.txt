@@ -30,8 +30,7 @@ galaxy "label deep"
 	sprite label/deep
 
 galaxy "label diba"
-	pos -1430 630
-	sprite label/diba
+	pos -1400 690
 
 galaxy "label dirt belt"
 	pos -515 260
@@ -51,7 +50,7 @@ galaxy "label hai"
 	pos -74 -497
 
 galaxy "label jibauni"
-	pos -1350 700
+	pos -1350 800
 
 galaxy "label incipias"
 	pos 300 -870

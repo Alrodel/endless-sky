@@ -11,6 +11,10 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+event "label diba space"
+	galaxy "label diba"
+		sprite "label/diba"
+
 outfit "Diba Laser Turret"
 	category "Turrets"
 	cost 60000
