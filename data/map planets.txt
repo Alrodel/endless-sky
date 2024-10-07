@@ -685,6 +685,11 @@ planet Cavaasa-Vasa-Tej
 			has "trusted by the successors"
 	government Predecessor
 
+planet Caya
+	attributes uninhabited
+	landscape land/canyon15
+	description `The natural beauty of Caya is stunning. Rock and tree and bare land are combined here to make a wonderful picture. The world is dark because of the large cloudbanks, but the planet's features are still visible.`
+
 planet "Ceaseless Toil"
 	attributes factory saryd uninhabited
 	landscape land/canyon01
@@ -4076,6 +4081,11 @@ planet Prime
 		threshold 8000
 		fleet "Large Republic" 17
 
+planet Prineanuhara
+	attributes uninhabited
+	landscape land/bwerner8
+	description `Prineanuhara is uninhabited and strikingly warm. Giant mesas and rock cliffs are scattered on the burning sand. Boots are essential to not have scalded feet, as the sand sinks under the weight of even a feather.`
+
 planet "Pug Wormhole"
 	wormhole "Pug Wormhole"
 
@@ -5836,6 +5846,11 @@ planet "Weir of Glubatub"
 	description `	A few of the larger islands have been settled by the Arachi, and most of the locals work in the fishing industry. Some of the fishing boats are so large that a small starship can land on their decks.`
 	spaceport `The spaceport is on an island near one of the planet's poles, where the temperature is cool and sea ice can be gathered to stock the warehouses where the fish are kept cold until they can be shipped off-world. Even with most of the fish being kept on ice, the smell is still overpowering, except at the rare moments when the wind picks up and it is replaced by the smell of fresh salt air.`
 	"required reputation" 15
+
+planet Weloon
+	attributes uninhabited
+	landscape land/hills6-sfiera
+	description `Weloon is quite cloudy, and the yellow slopes underneath the rolling fog are covered in light wisps of some unknown plant native to this planet. Mountains loom in the distance, and the much nearer trees are blotted dark against them.`
 
 planet Windblain
 	attributes deep oil textiles
