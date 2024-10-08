@@ -11,6 +11,15 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+mission "Discovered Diba Space" # TODO: make this not be a placeholder "to offer" condition, and move it to the fork (this means finishing the storyline).
+	landing
+	invisible
+	to offer
+		has "event: label jibauni space"
+	on offer
+		event "label diba space"
+		fail
+
 event "label diba space"
 	galaxy "label diba"
 		sprite "label/diba"
@@ -186,11 +195,11 @@ fleet "Large Diba"
 
 phrase "diba explode"
 	word
-		"things "
-		"us "
-		"robots "
-		"glorious warriors "
-		"anything "
+		"things"
+		"us"
+		"robots"
+		"glorious warriors"
+		"anything"
 
 phrase "diba bad"
 	word
@@ -360,5 +369,6 @@ shipyard "Diba"
 	"Tahquaya"
 
 outfitter "Diba"
+	"Diba Anti-Missile"
 	"Diba Laser Turret"
 	"Scram Drive"
