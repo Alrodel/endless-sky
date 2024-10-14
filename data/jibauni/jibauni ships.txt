@@ -32,6 +32,7 @@ ship "Larajal"
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
+		"fuel generation" 1
 		licenses
 			Jibauni
 		weapon
@@ -59,7 +60,7 @@ ship "Larajal"
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
 	description "The Jibauni like this fighter, as it is their only small ship with more than two gun ports. Unfortunately, those gun ports don't do very much damage. But they do do some, and the Larajal can be formidable in great numbers."
-	description "Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 ship "Muraw"
 	sprite "ship/barb"
@@ -82,6 +83,7 @@ ship "Muraw"
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
+		"fuel generation" 1
 		licenses
 			Jibauni
 		weapon
@@ -130,6 +132,7 @@ ship "Latbaliday"
 		"jibauni generator" .5
 		"fuel protection" .05
 		"slowing resistance" 100
+		"fuel generation" 1
 		licenses
 			Jibauni
 		weapon
@@ -154,7 +157,7 @@ ship "Latbaliday"
 	"final explode" "final explosion small"
 	description "Made to hammer away at enemies without a distraction, the Latbaliday has high shields and hull, but only minimum potential as a weapon bearer."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
-	
+
 ship "Daybal"
 	sprite "ship/boxwing"
 	thumbnail "thumbnail/boxwing"
@@ -223,6 +226,7 @@ ship "Duntay"
 		"reverse thrust" 1
 		"fuel protection" .05
 		"slowing resistance" 100
+		"fuel generation" 1
 		licenses
 			Jibauni
 		weapon
