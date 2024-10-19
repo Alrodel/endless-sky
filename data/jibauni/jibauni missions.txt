@@ -1,10 +1,10 @@
 # Copyright (c) 2024 by Loymdayddaud
 #
-# Jibauni is free software: you can redistribute it and/or modify it under the
+# Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
 # Foundation, either version 3 of the License, or (at your option) any later version.
 #
-# Jibauni is distributed in the hope that it will be useful, but WITHOUT ANY
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the GNU General Public License for more details.
 #
@@ -198,7 +198,7 @@ mission "Jibauni: An-lo and Re-sop 1"
 				set "jibauni: paid an-lo and re-sop back"
 			`	"Very kind of you," she says. An-lo cuts in with, "That was our son. He's been looking out for us for years, ever since I lost my job. But let bygones be bygones, shall we?"`
 			label end
-			`	Both Jibauni exit the <ship> with their bags, and you go about your business.`	
+			`	Both Jibauni exit the <ship> with their bags, and you go about your business.`
 
 
 mission "Jibauni: Ru-win 0"
