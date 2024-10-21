@@ -1618,6 +1618,12 @@ Copyright: Michael Zahniser
 License: GPL-2
 Comment: Created by a past contributor modified from Battle for Wesnoth (https://www.wesnoth.org/) sounds, which are copyright David White [dave@whitevine.net](mailto:dave@whitevine.net) under GPL 2 or later. Rights relinquished to Michael Zahniser.
 
+Files:
+ sounds/fissiondrive*
+ sounds/kspear*
+Copyright: Optic Delusion
+License: CC-BY-SA-3.0
+
 Files: sounds/heavy?rocket?hit.wav
 Copyright: Copyright Mike Koenig
 License: CC-BY-SA-3.0
@@ -2352,6 +2358,167 @@ Copyright: @Karirawri (crim@live.no)
 License: CC-BY-SA-4.0
 
 Files:
+ images/hardpoint/pulsebeamturrethp*
+ images/icon/kinetic?spear*
+ images/icon/sheragibeam*
+ images/outfit/fissioncore*
+ images/outfit/fusion?afterburner*
+ images/outfit/fusion?power?converter*
+ images/outfit/fusioncore*
+ images/outfit/kinetic?spear?launcher*
+ images/outfit/kinetic?spear?rack*
+ images/outfit/kinetic?spear*
+ images/outfit/large?fission?drive*
+ images/outfit/medium?embattery*
+ images/outfit/medium?sheragi?cooling*
+ images/outfit/pulsebeam?turret*
+ images/outfit/pulsebeam*
+ images/outfit/pwave?cannon*
+ images/outfit/sheragi?capital*
+ images/outfit/sheragi?license*
+ images/outfit/small?fusion?drive*
+ images/outfit/solar?intake*
+ images/projectile/kinetic?spear*
+ images/projectile/pulsebeam*
+ images/ship/bronzeedge*
+ images/ship/goldshield*
+ images/ship/llama*
+ images/ship/platinumspear*
+ images/ship/rubyhammer*
+ images/ship/whitebrand*
+ images/thumbnail/bronzeedge*
+ images/thumbnail/goldshield*
+ images/thumbnail/llama*
+ images/thumbnail/platinumspear*
+ images/thumbnail/rubyhammer*
+ images/thumbnail/whitebrand*
+Copyright: Petersupes (https://github.com/Petersupes)
+License: CC-BY-SA-4.0
+
+Files:
+ images/planet/wormhole-green*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
+
+Files:
+ images/land/garden0*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+
+Files:
+ images/land/mountain32*
+Copyright: dominickvietor (https://pixabay.com/users/dominickvietor-6362547/)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/water26*
+Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/mountain33*
+Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
+License: CC0
+Comment:
+ Taken from https://pixabay.com/photos/volcano-natural-cloud-landscape-3779159/, and
+ resized. According to Section 3 of the Pixabay Terms of Service, all images with a
+ "published date" earlier than January 9, 2019 have the CC0 license.
+
+Files:
+ images/land/valley16*
+Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
+License: CC0
+Comment:
+ Taken from https://pixabay.com/photos/mountains-landscape-morning-volcano-3778244/,
+ and resized. According to Section 3 of the Pixabay Terms of Service, all images
+ with a "published date" earlier than January 9, 2019 have the CC0 license.
+
+Files:
+ images/land/valley17*
+Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
+License: CC0
+Comment:
+ Taken from https://pixabay.com/photos/autumn-mountains-shirakami-sanchi-2183489/, and
+ resized. According to Section 3 of the Pixabay Terms of Service, all images with a
+ "published date" earlier than January 9, 2019 have the CC0 license.
+
+Files:
+ images/land/city29*
+Copyright: Pexels (https://pixabay.com/users/pexels-2286921/)
+License: CC0
+Comment:
+ Taken from https://pixabay.com/photos/buildings-illuminated-skyline-1870010/, and
+ resized. According to Section 3 of the Pixabay Terms of Service, all images with a
+ "published date" earlier than January 9, 2019 have the CC0 license.
+
+Files:
+ images/land/hills12*
+Copyright: sasint (https://pixabay.com/users/sasint-3639875/)
+License: CC0
+Comment:
+ Taken from https://pixabay.com/photos/rice-terraces-mountains-plantation-1822443/,
+ and resized. According to Section 3 of the Pixabay Terms of Service, all images
+ with a "published date" earlier than January 9, 2019 have the CC0 license.
+
+Files:
+ images/land/water27*
+ images/land/mars5*
+Copyright: ryannoeker (https://pixabay.com/users/ryannoeker-41074070/)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/mountain31*
+Copyright: shirinh (https://pixabay.com/users/shirinh-1577782/)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/beach16*
+ images/land/myrabella9*
+Copyright: Wolfgang-1958 (https://pixabay.com/users/wolfgang-1958-32693390/)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/lava18*
+Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
+License: CC-BY-SA-3.0
+
+Files:
+ images/land/fields30*
+Copyright: photoangel (https://www.freepik.com/author/photoangel)
+License: CC0
+
+Files:
+ images/land/snow26*
+Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
+License: CC-BY-SA-3.0
+
+Files:
+ images/ship/ithquaya?one*
+ images/ship/yankul*
+ images/thumbnail/ithquaya?one*
+ images/thumbnail/yankul*
+ sounds/jibauni?anti-missile*
+ sounds/jibauni?medium?laser*
+ sounds/jibauni?mining?laser*
+ sounds/jibauni?small?laser*
+ sounds/rukjay?missile*
+ sounds/ruksay?missile*
+ sounds/zarhal?turret*
+ sounds/zarwal?turret*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+
+Files:
+ images/land/station51*
+Copyright: Freepik (https://freepik.com)
+License: Freepik
+
+Files:
+ images/land/hills13*
+Copyright: Philipp Reiner (https://unsplash.com/@philippreiner)
+
+Files:
  images/effect/pwave?impact*
  images/effect/ionball?ring*
  images/effect/ion?explosion*
@@ -2398,6 +2565,12 @@ Files:
  images/land/clouds*
 Copyright: Benjamin Jackson (gods.benyamin@outlook.com)
 License: CC-BY-SA-4.0
+
+Files:
+ images/land/clouds_09
+ images/land/sky14*
+Copyright: ELG21 (https://pixabay.com/users/elg21-3764790/)
+License: CC-BY-SA-3.0
 
 Files:
  images/outfit/ka'het?maeri?engine*

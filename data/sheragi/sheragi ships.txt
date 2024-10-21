@@ -1,4 +1,5 @@
-# Copyright (c) 2020 by @Karirawri
+# Copyright (c) 2020 by @Karirawri for the Emerald Sword and Black Diamond
+# Copyright (c) 2024 by Loymdayddaud and Petersupes for the rest
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
