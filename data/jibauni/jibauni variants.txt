@@ -227,9 +227,38 @@ ship "Yiyharsi" "Yiyharsi (Rebel)"
 	outfits
 		"Jibauni Tractor Beam"
 		"Tawasitaq Energy Generator"
-		"Saybatrit Battery"
 		"Hyperdrive"
 		"Jamum Shield Generator"
 		"Wasita Engines"
-		"Jibauni Mining Laser" 2
+		"Jibauni Medium Laser" 2
 		"Jibauni Small Laser" 2
+	gun "Ruksay Missile Launcher"
+	gun "Ruksay Missile Launcher"
+	gun "Jibauni Small Laser"
+	gun "Jibauni Small Laser"
+	turret "Jibauni Tractor Beam"
+
+ship "Nathar" "Nathar (Rebel)"
+	outfits
+		"Ruksay Missile" 60
+		"Ruksay Missile Launcher" 2
+		"Jibauni Medium Laser" 2
+		"Jibauni Tractor Beam"
+		"Zarhal Laser Turret" 2
+		"Jibauni Anti-Missile" 2
+		"Daltaq Energy Generator"
+		"Saybatrit Battery"
+		"Jamum Shield Generator"
+		"Tamum Shield Generator"
+		"Eimlaq Engines"
+
+		"Hyperdrive"
+	gun "Ruksay Missile Launcher"
+	gun "Ruksay Missile Launcher"
+	gun "Jibauni Medium Laser"
+	gun "Jibauni Medium Laser"
+	turret "Jibauni Anti-Missile"
+	turret "Jibauni Anti-Missile"
+	turret "Jibauni Tractor Beam"
+	turret "Zarhal Laser Turret"
+	turret "Zarhal Laser Turret"
