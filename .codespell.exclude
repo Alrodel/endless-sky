@@ -74,8 +74,6 @@
 			`	He gestures confidently. "A team of Remnant, for instance, could all review incoming data from an experiment, form their own analyses, and then hold what amounts to a conference where each fully presents their thoughts and ideas with supporting data and reasoning within the span of a few minutes."`
 system Nnaug
 	object "Sies Upi"
-system Nin
-	link Nin
 planet "Sies Upi"
 	description `Sies Upi is one of the most recently colonized planets of the Gegno Vi. This hot, dry, and harsh world serves as more of an outpost than it does a colony, but nevertheless the Vi have found ways to create manageable living conditions for their settlers.`
 		"Brocken"
