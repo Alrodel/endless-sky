@@ -194,7 +194,7 @@ outfit "Small Map"
 outfit "Minjal"
 	category "Hand to Hand"
 	cost 12000
-	thumbnail "outfit/scythe"
+	thumbnail "outfit/minjal"
 	"capture attack" 4
 	"capture defense" 0.5
 	"unplunderable" 1
