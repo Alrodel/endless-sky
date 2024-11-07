@@ -270,9 +270,9 @@ outfit "Ruksay Missile Launcher"
 		"hit effect" "jibauni missile hit"
 		"inaccuracy" 6
 		"velocity" 0
-		"acceleration" 1.2
-		"drag" .3
-		"turn" 2.5
+		"acceleration" 1.8
+		"drag" .5
+		"turn" 3
 		"lifetime" 300
 		"reload" 130
 		"burst count" 4
@@ -320,7 +320,7 @@ outfit "Rukjay Missile Launcher"
 		"inaccuracy" 2
 		"velocity" 0
 		"acceleration" .8
-		"drag" .5
+		"drag" .3
 		"lifetime" 800
 		"reload" 130
 		"burst count" 4
