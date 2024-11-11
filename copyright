@@ -1867,6 +1867,13 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Frederick Goy IV (under the same license).
 
 Files:
+ images/outfit/bunk*
+ images/outfit/giant?bunk?room*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Becca Tommaso (under the same license).
+
+Files:
  images/hardpoint/javelin?turret*
  images/planet/station1*
  images/planet/station2*
@@ -2540,13 +2547,6 @@ Files:
  sounds/zarwal?turret*
 Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
 License: CC-BY-SA-4.0
-
-Files:
- images/outfit/bunk*
- images/outfit/giant?bunk?room*
-Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
-License: CC-BY-SA-4.0
-Comment: Derived from works by Becca Tommaso (under the same license).
 
 Files:
  images/land/station51*
