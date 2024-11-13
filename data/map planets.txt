@@ -371,7 +371,7 @@ planet Bailey
 
 planet Baitoon
 	attributes homeworld jibauni
-	landscape land/city29
+	landscape land/baitoon
 	description `This is where the Jibauni started, and presumably where the seat of the normal Jibauni government is. Many Jibauni are moving about in the long, narrow passageways between the landing pads, many of which are old and cracked.`
 	description `	There used to be other dinosaurs on this planet, but the Jibauni have transplanted them to a different planet, Owiay, where they thrive much better.`
 		to display
@@ -1135,7 +1135,7 @@ planet "Devru Kaska"
 
 planet "Diba Station"
 	attributes diba robot station
-	landscape land/station19
+	landscape "land/diba station"
 	description `This seems to be where most Diba ships are produced, and also where the Diba leader lives when he is not in space.`
 	port "Robot Housing"
 		description `The robots here do not acknowledge your presence, and nothing is here to refuel you. There is one small fortified room that could be meant for a human, and nothing else, besides huge containers of something you can only guess at.`
@@ -2901,7 +2901,7 @@ planet "Laki Nemparu"
 
 planet Lamalmuq
 	attributes jibauni pilgrims tourism
-	landscape land/valley17
+	landscape land/lamalmuq
 	description `This planet has a religious significance to the Jibauni. There are many of them here, wearing simple black robes and walking in twos and threes. There also are many religious buildings and none of the pubs and bars expected on a normal planet. Billboards are posted everywhere advertising something impossible to read.`
 	description `	This is the planet of the gods to the Jibauni. Their ancient legends tell of a place where the rulers of the universe lived, and where all was quiet and peaceful.`
 	description `	This, they believe, is that planet, and so have been very careful not to spoil it.`
@@ -3875,7 +3875,7 @@ planet Norn
 
 planet Nulto
 	attributes jibauni uninhabited
-	landscape land/hills13
+	landscape land/nulto
 	description `This planet is beautiful, with trees and grasses abundant in all areas of the mountainous region you are in. No signs of Jibauni habitation are visible, and it is unclear why they haven't settled here, though they may have decided not to spoil the planet with the smog and pollution of large cities.`
 	"required reputation" -1000
 
@@ -3989,7 +3989,7 @@ planet "Oup Je"
 
 planet Owiay
 	attributes jibauni uninhabited
-	landscape land/water26
+	landscape land/owiay
 	description `This is a beautiful world, with rushing rivers and great trees. No other ships, hostile or friendly, seem to be here.`
 	description `	The wildlife on Owiay is abundant, and there do not seem to be predators. All animals you see eat nothing but leaves.`
 	description `	In addition, there are plant-eating dinosaurs roaming the green hillsides. The Jibauni transplanted them here from Baitoon when they first discovered spaceflight.`
@@ -4897,7 +4897,7 @@ planet Sinter
 
 planet Sio
 	attributes uninhabited
-	landscape land/beach16
+	landscape land/sio
 	description `Snow is abundant in your landing location. There is ice on the surface of the water, and dead trees are standing on the edge, ready to topple at the slightest breath of wind. Rocks are embedded in the ice, causing there to be great white humps and hillocks. Snowdrifts are many, as are deep holes.`
 
 planet Siteria
