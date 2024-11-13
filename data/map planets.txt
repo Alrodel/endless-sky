@@ -2975,6 +2975,13 @@ planet Lichen
 		threshold 3000
 		fleet "Large Militia" 8
 
+planet Ligastoli
+	attributes uninhabited
+	landscape land/ligastoli
+	description `Ligastoli is a wonderful world, with lush greenery much like ancient rice terraces. In fact, it is remarkably like Earth, except for the wildlife.`
+	description `	The only animals here, your ship's computer decides, are called Stoli, and are a mix between a fox and a raccoon. They seem to live in trees.`
+	description `	Nothing else exists on the lush slopes of Ligastoli.`
+
 planet Limejog
 	attributes hai station uninhabited
 	landscape land/station45
@@ -5736,6 +5743,11 @@ planet "Vara Rakak"
 	tribute 2300
 		threshold 6500
 		fleet "Wanderer Defense" 5
+
+planet Vardelu
+	attributes uninhabited
+	landscape land/vardelu
+	description `A green planet with beautiful clouds, Vardelu is peaceful and aesthetic. Yet all is not as idollic as it seems. Innocent-looking clouds conceal deadly birds of prey, and exiting a spaceship brings great flocks of predators down upon anybody who dares set foot on the world.`
 
 planet "Varu Ek'lak'lai"
 	attributes mining wanderer
