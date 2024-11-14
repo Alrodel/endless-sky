@@ -594,6 +594,11 @@ planet "Buccaneer Bay"
 		threshold 3000
 		fleet "Large Core Pirates" 9
 
+planet Buhayra
+	attributes uninhabited
+	landscape land/buhayra
+	description `Deadly acids and innocent rocks are the defining features of Buhayra. Yet caution does well to be exercised, because in the pools great fish lurk, and not all of the rocks can be trusted to stay in one place.`
+
 planet "Builder Settlement"
 	attributes ka'het "requires: ka'sei" uninhabited
 	landscape land/asteroid0
@@ -2722,6 +2727,11 @@ planet "Kessel Sepret"
 	description `In this factory station, raw metal harvested in the other Korath systems is shaped into ships and weapons, the war materiel for their raids on human space. Sections of the ships are assembled and tested in pressurized hangars, but the Palavret is a large enough ship that the final assembly must be done in space, outside the station.`
 	spaceport `This station is run with military discipline reminiscent of a human Navy base. All the Korath, even the construction workers, are in full uniform with some sort of rank insignia: epaulettes that vary both in shape and color. The largest ones appear to mark the officers in charge.`
 	security 0
+
+planet Khariq
+	attributes uninhabited
+	landscape land/khariq
+	description `A lava world, sweltering with heat and smoke. Poisonous gases rise out of many volcanos, and magma is seeping over the rocky ground. Your ship's sensors are giving warnings, indicating that melting is possible for those who stay in the heat. It is best to not stay on the planet for too long.`
 
 planet Khora-Uurau-Uuoru
 	attributes successor uninhabited
