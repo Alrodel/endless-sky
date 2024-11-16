@@ -3129,6 +3129,11 @@ planet Makerplace
 	outfitter "Hai Advanced"
 	security 0.2
 
+planet Makhi
+	attributes uninhabited
+	landscape land/makhi
+	description `Makhi is filled with pools of bubbling liquid and rocks jutting high into the air. Poisonous algae covers the surface of the water, and steam is continually rising. This planet could be easily regarded as "spooky".`
+
 planet Mani
 	attributes deep moon
 	landscape land/nasa6
@@ -5184,6 +5189,11 @@ wormhole "Successor Wormhole"
 	color "wormholes: Ember Waste"
 	mappable
 
+planet Sukhur
+	attributes uninhabited
+	landscape land/sukhur
+	description `A small rocky moon, Sukhur has little of value or interest. Mining operations may one day be conducted by a civilization in dire need, but until then, Sukhur is likely to remain abandoned, with the occasional long patrol checking it over.`
+
 planet Sundive
 	attributes core farming forest frontier research
 	landscape land/water9
@@ -5481,6 +5491,11 @@ planet Tschyss
 	"required reputation" 1
 	bribe 0
 	security 0
+
+planet "Tud Habal"
+	attributes uninhabited
+	landscape "land/tud habal"
+	description `Tud Habal has no atmosphere, and it is a miracle that the sparse vegetation has survived. The land is dotted with lone mountains, covered with some sort of rock that moves. You can only guess what it might be called, if any sentient being lived here, but it is unlikely that the name would be pleasant.`
 
 planet Tundra
 	attributes "dirt belt" frozen oil textiles
@@ -6160,6 +6175,12 @@ planet Zenith
 	tribute 400
 		threshold 2500
 		fleet "Small Northern Pirates" 13
+
+planet Zilat
+	attributes uninhabited
+	landscape land/zilat
+	description `Nothing of interest resides on this abandoned planet. Its closeness to Jibauni space suggests that it may once have been inhabited, but if so, no indications remain; the planet looks remarkably free from intervention of any sentient being.`
+	description `	At your landing location, a lone yellow rock formation stands, the only splotch of different color in miles of red rock.`
 
 planet Zug
 	attributes factory farming rim
