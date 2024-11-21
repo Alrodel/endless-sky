@@ -1004,7 +1004,6 @@ government Jibauni
 	"crew defense" 0.5
 	"attitude toward"
 		"Jibauni (Rebel)" -1
-		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni (Ruler)" 1
 		"Pirate" -0.01
@@ -1030,7 +1029,6 @@ government "Jibauni (Civilian)"
 	"attitude toward"
 		Jibauni 1
 		"Jibauni (Rebel)" -1
-		"Jibauni (Fueler)" 0.01
 	"penalty for"
 		assist -10
 		disable 0.2
@@ -1875,7 +1873,6 @@ government "Sheragi (Jibauni)"
 	"attitude toward"
 		Jibauni -0.01
 		"Jibauni (Civilian)" -0.01
-		"Jibauni (Fueler)" 0.01
 		"Jibauni (Rebel)" -0.01
 		Diba -0.01
 		"Sheragi (Pirate)" -0.1
@@ -1895,7 +1892,6 @@ government "Sheragi Civilian (Jibauni)"
 	"attitude toward"
 		Jibauni -0.01
 		"Jibauni (Civilian)" -0.01
-		"Jibauni (Fueler)" 0.01
 		"Jibauni (Rebel)" -0.01
 		Diba -0.01
 		"Sheragi (Pirate)" -0.1
