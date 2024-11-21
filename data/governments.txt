@@ -769,31 +769,6 @@ government "Heliarch"
 		"Quarg (Incipias)" -.01
 		"Quarg (Kor Efret)" -.01
 
-government "Heliarch (Jibauni)"
-	swizzle 22
-	color "governments: Heliarch"
-	"crew attack" 1.3
-	"crew defense" 2.8
-	"player reputation" -1
-	"display name" "Heliarch"
-	"friendly hail" "friendly heliarch"
-	"friendly disabled hail" "friendly disabled heliarch"
-	"hostile hail" "hostile heliarch"
-	"hostile disabled hail" "hostile disabled heliarch"
-	"attitude toward"
-		"Quarg" -.01
-		"Quarg (Hai)" -.01
-		"Quarg (Kor Efret)" -.01
-		"Quarg (Gegno)" -.01
-		"Coalition" 1
-		"Heliarch" 1
-		Jibauni -1
-		"Jibauni (Rebel)" -1
-		Diba -1
-		"Sheragi (Jibauni)" -1
-		"Sheragi Civilian (Jibauni)" -1
-		"Jibauni (Civilian)" -1
-
 government "Heliarch Test Dummy"
 	"display name" "Heliarch"
 	swizzle 0
@@ -1048,7 +1023,7 @@ government Jibauni
 government "Jibauni (Civilian)"
 	color "governments: Jibauni"
 	swizzle 20
-	"display name" "Jibauni (Civilian)"
+	"display name" "Madaniun" # Civilian
 	"player reputation" 10
 	"crew attack" 3
 	"crew defense" 0.5
@@ -1078,7 +1053,6 @@ government "Jibauni (Rebel)"
 	"attitude toward"
 		Jibauni -1
 		"Jibauni (Civilian)" -1
-		"Jibauni (Fueler)" 0.01
 	"penalty for"
 		assist -2
 		disable 1
@@ -1094,13 +1068,12 @@ government "Jibauni (Rebel)"
 government "Jibauni (Ruler)"
 	color "governments: Jibauni"
 	swizzle 19
-	"display name" "Jibauni Leader"
+	"display name" "Hakim" # Ruler
 	"player reputation" 0
 	"crew attack" 3
 	"crew defense" 0.5
 	"attitude toward"
 		"Jibauni (Rebel)" -1
-		"Jibauni (Fueler)" 0.01
 		"Jibauni (Civilian)" 1
 		"Jibauni" 1
 	"penalty for"
