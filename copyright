@@ -2513,7 +2513,6 @@ License: CC-BY-SA-3.0
 
 Files:
  images/outfit/daltaq?generator*
- images/outfit/farbatal?battery*
  images/outfit/jahgir?generator*
  images/outfit/jamum?generator*
  images/outfit/jibauni?fuel?pod*
@@ -2541,6 +2540,19 @@ Files:
  images/projectile/jibauni?small?laser*
  images/projectile/rukjay*
  images/projectile/ruksay*
+ sounds/jibauni?anti-missile*
+ sounds/jibauni?medium?laser*
+ sounds/jibauni?mining?laser*
+ sounds/jibauni?small?laser*
+ sounds/rukjay?missile*
+ sounds/ruksay?missile*
+ sounds/zarhal?turret*
+ sounds/zarwal?turret*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
+License: CC-BY-SA-4.0
+
+Files:
+ images/land/farbatal?battery*
  images/ship/arbquaya?one*
  images/ship/arbquaya?two*
  images/ship/ithquaya?one*
@@ -2557,16 +2569,8 @@ Files:
  images/thumbnail/tahquaya?two*
  images/thumbnail/tamquaya?one*
  images/thumbnail/tamquaya?two*
- sounds/jibauni?anti-missile*
- sounds/jibauni?medium?laser*
- sounds/jibauni?mining?laser*
- sounds/jibauni?small?laser*
- sounds/rukjay?missile*
- sounds/ruksay?missile*
- sounds/zarhal?turret*
- sounds/zarwal?turret*
-Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
 License: CC-BY-SA-4.0
+Comment: Uses textures from freepik.com.
 
 Files:
  images/land/diba?station*
