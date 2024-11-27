@@ -2400,39 +2400,6 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
- images/land/garden0*
-Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
-License: CC-BY-SA-4.0
-
-Files:
- images/land/mountain32*
-Copyright: dominickvietor (https://pixabay.com/users/dominickvietor-6362547/)
-License: CC-BY-SA-3.0
-
-Files:
- images/land/water26*
-Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
-License: CC-BY-SA-3.0
-
-Files:
- images/land/mountain33*
-Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
-License: CC0
-Comment:
- Taken from https://pixabay.com/photos/volcano-natural-cloud-landscape-3779159/, and
- resized. According to Section 3 of the Pixabay Terms of Service, all images with a
- "published date" earlier than January 9, 2019 have the CC0 license.
-
-Files:
- images/land/valley16*
-Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
-License: CC0
-Comment:
- Taken from https://pixabay.com/photos/mountains-landscape-morning-volcano-3778244/,
- and resized. According to Section 3 of the Pixabay Terms of Service, all images
- with a "published date" earlier than January 9, 2019 have the CC0 license.
-
-Files:
  images/land/lamalmuq*
 Copyright: Kanenori (https://pixabay.com/users/kanenori-4749850/)
 License: CC0
@@ -2461,7 +2428,6 @@ Comment:
 
 Files:
  images/land/owiay*
- images/land/mars5*
 Copyright: ryannoeker (https://pixabay.com/users/ryannoeker-41074070/)
 License: CC-BY-SA-3.0
 
@@ -2486,30 +2452,14 @@ Copyright: Araştırmacı Ekanrın
 License: CC-BY-SA-4.0
 
 Files:
- images/land/mountain31*
-Copyright: shirinh (https://pixabay.com/users/shirinh-1577782/)
-License: CC-BY-SA-3.0
-
-Files:
  images/land/sio*
- images/land/myrabella9*
 Copyright: Wolfgang-1958 (https://pixabay.com/users/wolfgang-1958-32693390/)
-License: CC-BY-SA-3.0
-
-Files:
- images/land/lava18*
-Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
 License: CC-BY-SA-3.0
 
 Files:
  images/land/vardelu*
 Copyright: photoangel (https://www.freepik.com/author/photoangel)
 License: CC0
-
-Files:
- images/land/snow26*
-Copyright: Baptiste_lheurette (https://pixabay.com/users/baptiste_lheurette-15407445)
-License: CC-BY-SA-3.0
 
 Files:
  images/outfit/daltaq?generator*
@@ -2569,11 +2519,13 @@ Files:
  images/thumbnail/tahquaya?two*
  images/thumbnail/tamquaya?one*
  images/thumbnail/tamquaya?two*
+Copyright: Loymdayddaud (https://github.com/TheGiraffe3)
 License: CC-BY-SA-4.0
 Comment: Uses textures from freepik.com.
 
 Files:
  images/land/diba?station*
+ images/land/kahbani*
 Copyright: Freepik (https://freepik.com)
 License: CC0
 
@@ -2581,6 +2533,18 @@ Files:
  images/land/nulto*
 Copyright: Philipp Reiner (https://unsplash.com/@philippreiner)
 License: Unsplash
+
+Files:
+ images/land/andwerfen*
+ images/land/muntisir*
+ images/land/taltahard*
+Copyright: wirestock on Freepik
+License: Freepik
+
+Files:
+ images/land/sinsansun*
+Copyright: frimufilms on Freepik
+License: Freepik
 
 Files:
  images/effect/pwave?impact*
