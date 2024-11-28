@@ -58,15 +58,15 @@ outfit "Eimlaq Engines"
 	"outfit space" -90
 	"engine capacity" -70
 	"thrust" 50
-	"thrusting energy" 10
+	"thrusting energy" 4
 	"thrusting heat" 20
 	"thrusting fuel" .1
 	"reverse thrust" 10
-	"reverse thrusting energy" 2
+	"reverse thrusting energy" .3
 	"reverse thrusting heat" 2
 	"reverse thrusting fuel" .01
 	"turn" 1250
-	"turning energy" 5
+	"turning energy" 2
 	"turning heat" 12
 	"turning fuel" 1.25
 	"slowing resistance" .1
@@ -86,15 +86,15 @@ outfit "Wasita Engines"
 	"outfit space" -50
 	"engine capacity" -30
 	"thrust" 27
-	"thrusting energy" 5
+	"thrusting energy" 1
 	"thrusting heat" 10
 	"thrusting fuel" .65
 	"reverse thrust" 3
-	"reverse thrusting energy" 0.5
+	"reverse thrusting energy" 0.2
 	"reverse thrusting heat" 1
 	"reverse thrusting fuel" .003
 	"turn" 600
-	"turning energy" 1
+	"turning energy" .7
 	"turning heat" 4
 	"turning fuel" .6
 	"slowing resistance" .05
@@ -114,12 +114,10 @@ outfit "Alhaja Engines"
 	"outfit space" -20
 	"engine capacity" -15
 	"thrust" 5
-	"thrusting energy" 1
+	"thrusting energy" .6
 	"thrusting heat" .5
-	"reverse thrust" 1
-	"reverse thrusting energy" .001
-	"turn" 30
-	"turning energy" 1
+	"turn" 90
+	"turning energy" .5
 	"turning heat" .7
 	"slowing resistance" .01
 	"slowing resistance fuel" .01
@@ -189,6 +187,99 @@ outfit "Small Map"
 	"map" 3
 	"unplunderable" 1
 	description "This data chip contains complete information on the three star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+
+
+outfit "Fuel-Leak 10"
+	category "Turrets"
+	cost 15000
+	"mass" 8
+	"turret mounts" -1
+	"fuel damage" 20
+	"outfit space" -8
+	"weapon capacity" -8
+
+outfit "Fuel-Leak 25"
+	category "Turrets"
+	cost 30000
+	"mass" 20
+	"turret mounts" -1
+	"fuel damage" 50
+	"outfit space" -20
+	"weapon capacity" -20
+
+outfit "Fuel-Leak 50"
+	category "Turrets"
+	cost 55000
+	"mass" 45
+	"turret mounts" -1
+	"fuel damage" 100
+	"outfit space" -45
+	"weapon capacity" -45
+	"fuel mount" -1
+	"firing slowing" 1
+	licenses
+		"Jibauni Rebel Fighter"
+
+outfit "Fuel-Leak 100"
+	category "Turrets"
+	cost 110000
+	"mass" 70
+	"turret mounts" -1
+	"fuel damage" 200
+	"outfit space" -70
+	"weapon capacity" -70
+	"required crew" 2
+	"fuel mount" -1
+	"firing slowing" 4
+	licenses
+		"Jibauni Rebel Fighter"
+
+outfit "Fuel-Leak All"
+	category "Guns"
+	cost 990000
+	"mass" 130
+	"gun ports" -1
+	"fuel damage" 200000000
+	"outfit space" -130
+	"weapon capacity" -130
+	"required crew" 5
+	"fuel mount" -1
+	"firing slowing" 10
+	licenses
+		"Jibauni Rebel Fighter"
+		"Jibauni Government"
+		"Jibauni"
+	"unplunderable" 1
+
+outfit "Fueler 10"
+	category "Turrets"
+	cost 10000
+	"mass" 10
+	"turret mounts" -1
+	"fuel damage" -20
+	"firing fuel" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	licenses
+		"Jibauni"
+
+outfit "Fueler 100"
+	category "Turrets"
+	cost 100000
+	"mass" 75
+	"turret mounts" -1
+	"fuel mounts" -1
+	"fuel damage" -200
+	"outfit space" -75
+	"weapon capacity" -75
+	"heat damage" -100
+	"energy damage" -500
+	"required crew" 1
+	"firing fuel" 100
+	"fuel mount" -1
+	licenses
+		"Jibauni Rebel Fighter"
+		"Jibauni"
 
 
 outfit "Minjal"
@@ -320,7 +411,7 @@ outfit "Rukjay Missile Launcher"
 		"inaccuracy" 2
 		"velocity" 0
 		"acceleration" .8
-		"drag" .3
+		"drag" .5
 		"lifetime" 800
 		"reload" 130
 		"burst count" 4
@@ -329,7 +420,7 @@ outfit "Rukjay Missile Launcher"
 		"firing heat" 15
 		"firing fuel" 0.17
 		"acceleration" .3
-		"drag" .021
+		"drag" .3
 		"turn" 4
 		"homing" 4
 		"infrared tracking" .1
@@ -466,8 +557,7 @@ outfit "Jahgir Energy Generator"
 	"energy generation" 2
 	"heat generation" 1.5
 	"mass" 15
-	"ramscoop" .15
-	"jibauni generator" -.5
+	"ramscoop" .01
 
 outfit "Watsaq Energy Generator"
 	cost 50000
@@ -478,7 +568,7 @@ outfit "Watsaq Energy Generator"
 	"heat generation" 1.75
 	"mass" 20
 	"fuel generation" .2
-	"ramscoop" .15
+	"ramscoop" .05
 	"jibauni generator" -1
 
 outfit "Tawasitaq Energy Generator"
@@ -488,20 +578,20 @@ outfit "Tawasitaq Energy Generator"
 	"outfit space" -45
 	"energy generation" 5
 	"heat generation" 1.9
-	"mass" 35
-	"fuel generation" .6
-	"ramscoop" .15
+	"mass" 45
+	"fuel generation" .5
+	"ramscoop" .1
 	"jibauni generator" -2
 
 outfit "Daltaq Energy Generator"
 	cost 4000000
 	category "Power"
 	thumbnail "outfit/daltaq generator"
-	"outfit space" -100
-	"energy generation" 13.8
-	"heat generation" 13.3
-	"mass" 90
-	"fuel generation" 2
+	"outfit space" -65
+	"energy generation" 7.35
+	"heat generation" 3.4
+	"mass" 65
+	"fuel generation" .8
 	"ramscoop" .15
 	"jibauni generator" -4
 
@@ -560,7 +650,7 @@ outfit "Altaedin Laser"
 outfit "Bunk"
 	category "Systems"
 	cost 15000
-	thumbnail "outfit/tiny bunk room"
+	thumbnail "outfit/bunk"
 	"mass" 2
 	"bunks" 1
 	"outfit space" -7
